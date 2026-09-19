@@ -1,0 +1,32 @@
+version: "3.9"
+
+services:
+  backend:
+    build: ../backend
+    container_name: acp_backend
+    env_file:
+      - ../backend/.env
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.backend.rule=Host(`acp.local`)"
+    networks:
+      - acp_net
+
+  traefik:
+    image: traefik:v3.0
+    container_name: acp_traefik
+    command:
+      - "--api.insecure=true"
+      - "--providers.docker=true"
+      - "--entrypoints.web.address=:80"
+    ports:
+      - "80:80"
+      - "8080:8080"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+    networks:
+      - acp_net
+
+networks:
+  acp_net:
+    driver: bridge

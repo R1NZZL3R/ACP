@@ -1,0 +1,11 @@
+# Configuracion estatica de Traefik (referencia)
+# Se completa cuando se llegue a la fase de reverse proxy (9-22 nov)
+api:
+  dashboard: true
+
+entryPoints:
+  web:
+    address: ":80"
+
+providers:
+  docker: {}

@@ -1,0 +1,1850 @@
+[
+ {
+  "pagina": "caracteristicas",
+  "cat": "Estructura HTML",
+  "crit": "Encabezado y pie comunes (12 nodos del árbol)",
+  "exp": "12 de 12",
+  "found": "12 de 12",
+  "status": "cumple"
+ },
+ {
+  "pagina": "caracteristicas",
+  "cat": "Estructura HTML",
+  "crit": "Ítem activo del menú (aria-current=\"page\")",
+  "exp": "Características",
+  "found": "Características",
+  "status": "cumple"
+ },
+ {
+  "pagina": "caracteristicas",
+  "cat": "Estructura HTML",
+  "crit": "Introducción",
+  "exp": "1 × section#intro > h1",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "pagina": "caracteristicas",
+  "cat": "Estructura HTML",
+  "crit": "Introducción: párrafo",
+  "exp": "1 × section#intro > p",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "pagina": "caracteristicas",
+  "cat": "Estructura HTML",
+  "crit": "Contenedor con barra",
+  "exp": "1 × main#contenido > div.con-barra",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "pagina": "caracteristicas",
+  "cat": "Estructura HTML",
+  "crit": "Índice lateral",
+  "exp": "1 × div.con-barra > aside#indice > p.titulo-indice",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "pagina": "caracteristicas",
+  "cat": "Estructura HTML",
+  "crit": "Navegación del índice",
+  "exp": "6 × aside#indice > nav[aria-label=\"Índice de características\"] ul > li …",
+  "found": "6",
+  "status": "cumple"
+ },
+ {
+  "pagina": "caracteristicas",
+  "cat": "Estructura HTML",
+  "crit": "Bloques",
+  "exp": "6 × div.bloques > article.bloque",
+  "found": "6",
+  "status": "cumple"
+ },
+ {
+  "pagina": "caracteristicas",
+  "cat": "Estructura HTML",
+  "crit": "Anclas #zip-git, #deteccion, #docker, #bases-de-datos, #traefik, #logs",
+  "exp": "6 × article.bloque#zip-git, article.bloque#deteccion, article.bloque#do…",
+  "found": "6",
+  "status": "cumple"
+ },
+ {
+  "pagina": "caracteristicas",
+  "cat": "Estructura HTML",
+  "crit": "Bloques con h2",
+  "exp": "6 × article.bloque > h2",
+  "found": "6",
+  "status": "cumple"
+ },
+ {
+  "pagina": "caracteristicas",
+  "cat": "Estructura HTML",
+  "crit": "Bloques con p",
+  "exp": "6 × article.bloque > p",
+  "found": "6",
+  "status": "cumple"
+ },
+ {
+  "pagina": "caracteristicas",
+  "cat": "Estructura HTML",
+  "crit": "Bloques con img",
+  "exp": "6 × article.bloque > img",
+  "found": "6",
+  "status": "cumple"
+ },
+ {
+  "pagina": "caracteristicas",
+  "cat": "Estructura HTML",
+  "crit": "h1 en toda la página",
+  "exp": "1 × h1",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "pagina": "caracteristicas",
+  "cat": "Estructura HTML",
+  "crit": "Cada enlace del índice apunta a un ancla existente",
+  "exp": "6 de 6",
+  "found": "6 de 6",
+  "status": "cumple"
+ },
+ {
+  "pagina": "caracteristicas",
+  "cat": "Accesibilidad",
+  "crit": "Todas las imágenes tienen atributo alt",
+  "exp": "0 sin alt",
+  "found": "0 sin alt",
+  "status": "cumple"
+ },
+ {
+  "pagina": "caracteristicas",
+  "cat": "Maquetación",
+  "crit": "Sin desplazamiento horizontal (1440 px)",
+  "exp": "sí",
+  "found": "sí",
+  "status": "cumple"
+ },
+ {
+  "pagina": "caracteristicas",
+  "cat": "Maquetación",
+  "crit": "Índice fijo (sticky)",
+  "exp": "sticky",
+  "found": "sticky",
+  "status": "cumple"
+ },
+ {
+  "pagina": "caracteristicas",
+  "cat": "Maquetación",
+  "crit": "Imagen alterna izquierda/derecha",
+  "exp": "izq, der, izq, der, izq, der",
+  "found": "izq, der, izq, der, izq, der",
+  "status": "cumple"
+ },
+ {
+  "pagina": "caracteristicas",
+  "cat": "Maquetación",
+  "crit": "Índice a la izquierda de los bloques",
+  "exp": "índice a la izquierda",
+  "found": "a la izquierda",
+  "status": "cumple"
+ },
+ {
+  "pagina": "como-funciona",
+  "cat": "Estructura HTML",
+  "crit": "Encabezado y pie comunes (12 nodos del árbol)",
+  "exp": "12 de 12",
+  "found": "12 de 12",
+  "status": "cumple"
+ },
+ {
+  "pagina": "como-funciona",
+  "cat": "Estructura HTML",
+  "crit": "Ítem activo del menú (aria-current=\"page\")",
+  "exp": "Cómo funciona",
+  "found": "Cómo funciona",
+  "status": "cumple"
+ },
+ {
+  "pagina": "como-funciona",
+  "cat": "Estructura HTML",
+  "crit": "Introducción",
+  "exp": "1 × section#intro > h1",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "pagina": "como-funciona",
+  "cat": "Estructura HTML",
+  "crit": "Introducción: párrafo",
+  "exp": "1 × section#intro > p",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "pagina": "como-funciona",
+  "cat": "Estructura HTML",
+  "crit": "Stepper",
+  "exp": "1 × main#contenido > ol#pasos.stepper",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "pagina": "como-funciona",
+  "cat": "Estructura HTML",
+  "crit": "Pasos",
+  "exp": "4 × ol#pasos > li.paso",
+  "found": "4",
+  "status": "cumple"
+ },
+ {
+  "pagina": "como-funciona",
+  "cat": "Estructura HTML",
+  "crit": "Tarjetas de paso",
+  "exp": "4 × li.paso > article.tarjeta-paso",
+  "found": "4",
+  "status": "cumple"
+ },
+ {
+  "pagina": "como-funciona",
+  "cat": "Estructura HTML",
+  "crit": "Con img.icono",
+  "exp": "4 × article.tarjeta-paso > img.icono",
+  "found": "4",
+  "status": "cumple"
+ },
+ {
+  "pagina": "como-funciona",
+  "cat": "Estructura HTML",
+  "crit": "Con h2",
+  "exp": "4 × article.tarjeta-paso > h2",
+  "found": "4",
+  "status": "cumple"
+ },
+ {
+  "pagina": "como-funciona",
+  "cat": "Estructura HTML",
+  "crit": "Con p",
+  "exp": "4 × article.tarjeta-paso > p",
+  "found": "4",
+  "status": "cumple"
+ },
+ {
+  "pagina": "como-funciona",
+  "cat": "Estructura HTML",
+  "crit": "Con img.ilustracion",
+  "exp": "4 × article.tarjeta-paso > img.ilustracion",
+  "found": "4",
+  "status": "cumple"
+ },
+ {
+  "pagina": "como-funciona",
+  "cat": "Estructura HTML",
+  "crit": "h1 en toda la página",
+  "exp": "1 × h1",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "pagina": "como-funciona",
+  "cat": "Accesibilidad",
+  "crit": "Todas las imágenes tienen atributo alt",
+  "exp": "0 sin alt",
+  "found": "0 sin alt",
+  "status": "cumple"
+ },
+ {
+  "pagina": "como-funciona",
+  "cat": "Maquetación",
+  "crit": "Sin desplazamiento horizontal (1440 px)",
+  "exp": "sí",
+  "found": "sí",
+  "status": "cumple"
+ },
+ {
+  "pagina": "como-funciona",
+  "cat": "Maquetación",
+  "crit": "Stepper vertical (4 pasos uno bajo otro)",
+  "exp": "vertical",
+  "found": "vertical",
+  "status": "cumple"
+ },
+ {
+  "pagina": "como-funciona",
+  "cat": "Maquetación",
+  "crit": "Número de cada paso generado por CSS (contador de ol)",
+  "exp": "content: counter(paso) en los 4 pasos",
+  "found": "content: counter(paso) en 4 pasos; counter-increment: paso 1",
+  "status": "cumple"
+ },
+ {
+  "pagina": "como-funciona",
+  "cat": "Maquetación",
+  "crit": "Ilustración a la derecha del texto",
+  "exp": "derecha",
+  "found": "derecha",
+  "status": "cumple"
+ },
+ {
+  "pagina": "como-funciona",
+  "cat": "Colores",
+  "crit": "Tarjeta de paso: borde",
+  "exp": "rgb(174, 181, 194)",
+  "found": "rgb(174, 181, 194)",
+  "status": "cumple"
+ },
+ {
+  "pagina": "como-funciona",
+  "cat": "Espaciados",
+  "crit": "Tarjeta de paso: padding 24 px",
+  "exp": "24px",
+  "found": "24px",
+  "status": "cumple"
+ },
+ {
+  "pagina": "tecnologias",
+  "cat": "Estructura HTML",
+  "crit": "Encabezado y pie comunes (12 nodos del árbol)",
+  "exp": "12 de 12",
+  "found": "12 de 12",
+  "status": "cumple"
+ },
+ {
+  "pagina": "tecnologias",
+  "cat": "Estructura HTML",
+  "crit": "Ítem activo del menú (aria-current=\"page\")",
+  "exp": "Tecnologías",
+  "found": "Tecnologías",
+  "status": "cumple"
+ },
+ {
+  "pagina": "tecnologias",
+  "cat": "Estructura HTML",
+  "crit": "Introducción",
+  "exp": "1 × section#intro > h1",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "pagina": "tecnologias",
+  "cat": "Estructura HTML",
+  "crit": "Lenguajes: h2",
+  "exp": "1 × section#lenguajes > h2",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "pagina": "tecnologias",
+  "cat": "Estructura HTML",
+  "crit": "Lenguajes: tarjetas",
+  "exp": "8 × section#lenguajes div.cuadricula > article.tarjeta",
+  "found": "8",
+  "status": "cumple"
+ },
+ {
+  "pagina": "tecnologias",
+  "cat": "Estructura HTML",
+  "crit": "Bases de datos: h2",
+  "exp": "1 × section#bases-de-datos > h2",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "pagina": "tecnologias",
+  "cat": "Estructura HTML",
+  "crit": "Bases de datos: tarjetas",
+  "exp": "3 × section#bases-de-datos div.cuadricula > article.tarjeta",
+  "found": "3",
+  "status": "cumple"
+ },
+ {
+  "pagina": "tecnologias",
+  "cat": "Estructura HTML",
+  "crit": "Tarjetas con img.logo-tec",
+  "exp": "11 × article.tarjeta > img.logo-tec",
+  "found": "11",
+  "status": "cumple"
+ },
+ {
+  "pagina": "tecnologias",
+  "cat": "Estructura HTML",
+  "crit": "Tarjetas con h3",
+  "exp": "11 × article.tarjeta > h3",
+  "found": "11",
+  "status": "cumple"
+ },
+ {
+  "pagina": "tecnologias",
+  "cat": "Estructura HTML",
+  "crit": "Tarjetas con p",
+  "exp": "11 × article.tarjeta > p",
+  "found": "11",
+  "status": "cumple"
+ },
+ {
+  "pagina": "tecnologias",
+  "cat": "Estructura HTML",
+  "crit": "h1 en toda la página",
+  "exp": "1 × h1",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "pagina": "tecnologias",
+  "cat": "Accesibilidad",
+  "crit": "Todas las imágenes tienen atributo alt",
+  "exp": "0 sin alt",
+  "found": "0 sin alt",
+  "status": "cumple"
+ },
+ {
+  "pagina": "tecnologias",
+  "cat": "Maquetación",
+  "crit": "Sin desplazamiento horizontal (1440 px)",
+  "exp": "sí",
+  "found": "sí",
+  "status": "cumple"
+ },
+ {
+  "pagina": "tecnologias",
+  "cat": "Maquetación",
+  "crit": "Lenguajes en cuadrícula de 4 columnas",
+  "exp": "4 por fila",
+  "found": "4 por fila",
+  "status": "cumple"
+ },
+ {
+  "pagina": "tecnologias",
+  "cat": "Maquetación",
+  "crit": "Bases de datos: 3 tarjetas en una fila",
+  "exp": "3 en una fila",
+  "found": "3 en una fila",
+  "status": "cumple"
+ },
+ {
+  "pagina": "tecnologias",
+  "cat": "Espaciados",
+  "crit": "Tarjeta: padding 24 px (misma clase .tarjeta que Home)",
+  "exp": "24px",
+  "found": "24px",
+  "status": "cumple"
+ },
+ {
+  "pagina": "tecnologias",
+  "cat": "Íconos",
+  "crit": "Logo de tecnología: 56 px",
+  "exp": "56px",
+  "found": "56px",
+  "status": "cumple"
+ },
+ {
+  "pagina": "tecnologias",
+  "cat": "Colores",
+  "crit": "Sección blanca en los wireframes (bases de datos): sin fondo",
+  "exp": "rgba(0, 0, 0, 0)",
+  "found": "rgba(0, 0, 0, 0)",
+  "status": "cumple"
+ },
+ {
+  "pagina": "documentacion",
+  "cat": "Estructura HTML",
+  "crit": "Encabezado y pie comunes (12 nodos del árbol)",
+  "exp": "12 de 12",
+  "found": "12 de 12",
+  "status": "cumple"
+ },
+ {
+  "pagina": "documentacion",
+  "cat": "Estructura HTML",
+  "crit": "Ítem activo del menú (aria-current=\"page\")",
+  "exp": "Documentación",
+  "found": "Documentación",
+  "status": "cumple"
+ },
+ {
+  "pagina": "documentacion",
+  "cat": "Estructura HTML",
+  "crit": "Contenedor con barra",
+  "exp": "1 × main#contenido > div.con-barra",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "pagina": "documentacion",
+  "cat": "Estructura HTML",
+  "crit": "Índice: título",
+  "exp": "1 × aside#indice > p.titulo-indice",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "pagina": "documentacion",
+  "cat": "Estructura HTML",
+  "crit": "Índice: enlaces",
+  "exp": "3 × aside#indice > nav[aria-label=\"Documentación\"] ul > li > a.enlace-i…",
+  "found": "3",
+  "status": "cumple"
+ },
+ {
+  "pagina": "documentacion",
+  "cat": "Estructura HTML",
+  "crit": "Artículo con h1",
+  "exp": "1 × article#documento > h1",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "pagina": "documentacion",
+  "cat": "Estructura HTML",
+  "crit": "Secciones con id",
+  "exp": "3 × article#documento > section#guia-de-inicio, article#documento > sec…",
+  "found": "3",
+  "status": "cumple"
+ },
+ {
+  "pagina": "documentacion",
+  "cat": "Estructura HTML",
+  "crit": "Guía: h2, h3",
+  "exp": "2 × #guia-de-inicio > h2, #guia-de-inicio > h3",
+  "found": "2",
+  "status": "cumple"
+ },
+ {
+  "pagina": "documentacion",
+  "cat": "Estructura HTML",
+  "crit": "Bloque de código con botón copiar",
+  "exp": "1 × div.bloque-codigo > button.boton-copiar",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "pagina": "documentacion",
+  "cat": "Estructura HTML",
+  "crit": "Bloque de código: pre > code",
+  "exp": "1 × div.bloque-codigo > pre > code",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "pagina": "documentacion",
+  "cat": "Estructura HTML",
+  "crit": "Requisitos: h2",
+  "exp": "1 × #requisitos > h2",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "pagina": "documentacion",
+  "cat": "Estructura HTML",
+  "crit": "Preguntas: elementos",
+  "exp": "4 × #preguntas-frecuentes div.faq-item",
+  "found": "4",
+  "status": "cumple"
+ },
+ {
+  "pagina": "documentacion",
+  "cat": "Estructura HTML",
+  "crit": "Preguntas: h3 > button colapsado",
+  "exp": "4 × h3 > button.faq-pregunta[aria-expanded=\"false\"]",
+  "found": "4",
+  "status": "cumple"
+ },
+ {
+  "pagina": "documentacion",
+  "cat": "Estructura HTML",
+  "crit": "Respuestas ocultas",
+  "exp": "4 × p.faq-respuesta[hidden]",
+  "found": "4",
+  "status": "cumple"
+ },
+ {
+  "pagina": "documentacion",
+  "cat": "Estructura HTML",
+  "crit": "h1 en toda la página",
+  "exp": "1 × h1",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "pagina": "documentacion",
+  "cat": "Estructura HTML",
+  "crit": "Cada enlace del índice apunta a un ancla existente",
+  "exp": "3 de 3",
+  "found": "3 de 3",
+  "status": "cumple"
+ },
+ {
+  "pagina": "documentacion",
+  "cat": "Accesibilidad",
+  "crit": "Todas las imágenes tienen atributo alt",
+  "exp": "0 sin alt",
+  "found": "0 sin alt",
+  "status": "cumple"
+ },
+ {
+  "pagina": "documentacion",
+  "cat": "Maquetación",
+  "crit": "Sin desplazamiento horizontal (1440 px)",
+  "exp": "sí",
+  "found": "sí",
+  "status": "cumple"
+ },
+ {
+  "pagina": "documentacion",
+  "cat": "Colores",
+  "crit": "Bloque de código: fondo azul marino",
+  "exp": "rgb(11, 21, 48)",
+  "found": "rgb(11, 21, 48)",
+  "status": "cumple"
+ },
+ {
+  "pagina": "documentacion",
+  "cat": "Tipografía",
+  "crit": "Bloque de código: fuente monoespaciada",
+  "exp": "\"Cascadia Mono\", Consolas, \"Courier New\", monospace",
+  "found": "\"Cascadia Mono\", Consolas, \"Courier New\", monospace",
+  "status": "cumple"
+ },
+ {
+  "pagina": "documentacion",
+  "cat": "Maquetación",
+  "crit": "Índice fijo (sticky)",
+  "exp": "sticky",
+  "found": "sticky",
+  "status": "cumple"
+ },
+ {
+  "pagina": "documentacion",
+  "cat": "Tipografía",
+  "crit": "Título de sección H2: 36 px",
+  "exp": "36px",
+  "found": "36px",
+  "status": "cumple"
+ },
+ {
+  "pagina": "acerca-de",
+  "cat": "Estructura HTML",
+  "crit": "Encabezado y pie comunes (12 nodos del árbol)",
+  "exp": "12 de 12",
+  "found": "12 de 12",
+  "status": "cumple"
+ },
+ {
+  "pagina": "acerca-de",
+  "cat": "Estructura HTML",
+  "crit": "Ítem activo del menú (aria-current=\"page\")",
+  "exp": "Acerca de",
+  "found": "Acerca de",
+  "status": "cumple"
+ },
+ {
+  "pagina": "acerca-de",
+  "cat": "Estructura HTML",
+  "crit": "Qué es: h1",
+  "exp": "1 × section#que-es > h1",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "pagina": "acerca-de",
+  "cat": "Estructura HTML",
+  "crit": "Qué es: párrafo",
+  "exp": "1 × section#que-es > p",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "pagina": "acerca-de",
+  "cat": "Estructura HTML",
+  "crit": "Qué es: ilustración con alt",
+  "exp": "1 × section#que-es img.ilustracion[alt]",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "pagina": "acerca-de",
+  "cat": "Estructura HTML",
+  "crit": "Equipo: h2",
+  "exp": "1 × section#equipo > h2",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "pagina": "acerca-de",
+  "cat": "Estructura HTML",
+  "crit": "Tarjetas de persona",
+  "exp": "2 × section#equipo article.tarjeta-persona",
+  "found": "2",
+  "status": "cumple"
+ },
+ {
+  "pagina": "acerca-de",
+  "cat": "Estructura HTML",
+  "crit": "Fotos con alt \"Foto de …\"",
+  "exp": "2 × article.tarjeta-persona > img.foto[alt^=\"Foto de\"]",
+  "found": "2",
+  "status": "cumple"
+ },
+ {
+  "pagina": "acerca-de",
+  "cat": "Estructura HTML",
+  "crit": "Persona: h3 y p",
+  "exp": "4 × article.tarjeta-persona > h3, article.tarjeta-persona > p",
+  "found": "4",
+  "status": "cumple"
+ },
+ {
+  "pagina": "acerca-de",
+  "cat": "Estructura HTML",
+  "crit": "Cronograma: h2",
+  "exp": "1 × section#cronograma > h2",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "pagina": "acerca-de",
+  "cat": "Estructura HTML",
+  "crit": "Línea de tiempo",
+  "exp": "7 × section#cronograma > ol.linea-tiempo > li.fase",
+  "found": "7",
+  "status": "cumple"
+ },
+ {
+  "pagina": "acerca-de",
+  "cat": "Estructura HTML",
+  "crit": "Fases con h3 y p",
+  "exp": "14 × li.fase > h3, li.fase > p",
+  "found": "14",
+  "status": "cumple"
+ },
+ {
+  "pagina": "acerca-de",
+  "cat": "Estructura HTML",
+  "crit": "h1 en toda la página",
+  "exp": "1 × h1",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "pagina": "acerca-de",
+  "cat": "Estructura HTML",
+  "crit": "h2 en toda la página (equipo y cronograma)",
+  "exp": "2 × h2",
+  "found": "2",
+  "status": "cumple"
+ },
+ {
+  "pagina": "acerca-de",
+  "cat": "Accesibilidad",
+  "crit": "Todas las imágenes tienen atributo alt",
+  "exp": "0 sin alt",
+  "found": "0 sin alt",
+  "status": "cumple"
+ },
+ {
+  "pagina": "acerca-de",
+  "cat": "Maquetación",
+  "crit": "Sin desplazamiento horizontal (1440 px)",
+  "exp": "sí",
+  "found": "sí",
+  "status": "cumple"
+ },
+ {
+  "pagina": "acerca-de",
+  "cat": "Maquetación",
+  "crit": "Línea de tiempo horizontal de 7 fases",
+  "exp": "7 en una fila",
+  "found": "7 en una fila",
+  "status": "cumple"
+ },
+ {
+  "pagina": "acerca-de",
+  "cat": "Maquetación",
+  "crit": "2 tarjetas de persona en una fila",
+  "exp": "2 en una fila",
+  "found": "1 fila(s)",
+  "status": "cumple"
+ },
+ {
+  "pagina": "acerca-de",
+  "cat": "Colores",
+  "crit": "Tarjeta de persona: borde",
+  "exp": "rgb(174, 181, 194)",
+  "found": "rgb(174, 181, 194)",
+  "status": "cumple"
+ },
+ {
+  "pagina": "contacto",
+  "cat": "Estructura HTML",
+  "crit": "Encabezado y pie comunes (12 nodos del árbol)",
+  "exp": "12 de 12",
+  "found": "12 de 12",
+  "status": "cumple"
+ },
+ {
+  "pagina": "contacto",
+  "cat": "Estructura HTML",
+  "crit": "Ítem activo del menú (aria-current=\"page\")",
+  "exp": "Contacto",
+  "found": "Contacto",
+  "status": "cumple"
+ },
+ {
+  "pagina": "contacto",
+  "cat": "Estructura HTML",
+  "crit": "h1 dentro de main",
+  "exp": "1 × main#contenido > h1",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "pagina": "contacto",
+  "cat": "Estructura HTML",
+  "crit": "Dos columnas",
+  "exp": "1 × main#contenido > div.dos-columnas",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "pagina": "contacto",
+  "cat": "Estructura HTML",
+  "crit": "Datos: h2",
+  "exp": "1 × section#datos > h2",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "pagina": "contacto",
+  "cat": "Estructura HTML",
+  "crit": "Datos de contacto",
+  "exp": "3 × ul.lista-datos > li.dato",
+  "found": "3",
+  "status": "cumple"
+ },
+ {
+  "pagina": "contacto",
+  "cat": "Estructura HTML",
+  "crit": "Dato con icono, h3 y p",
+  "exp": "9 × li.dato > img.icono, li.dato > h3, li.dato > p",
+  "found": "9",
+  "status": "cumple"
+ },
+ {
+  "pagina": "contacto",
+  "cat": "Estructura HTML",
+  "crit": "Formulario: h2",
+  "exp": "1 × section#formulario > h2",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "pagina": "contacto",
+  "cat": "Estructura HTML",
+  "crit": "form#form-contacto[novalidate]",
+  "exp": "1 × section#formulario > form#form-contacto[novalidate]",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "pagina": "contacto",
+  "cat": "Estructura HTML",
+  "crit": "Campos",
+  "exp": "4 × form#form-contacto > div.campo",
+  "found": "4",
+  "status": "cumple"
+ },
+ {
+  "pagina": "contacto",
+  "cat": "Estructura HTML",
+  "crit": "Ids de campos",
+  "exp": "4 × #campo-nombre, #campo-correo, #campo-asunto, #campo-mensaje",
+  "found": "4",
+  "status": "cumple"
+ },
+ {
+  "pagina": "contacto",
+  "cat": "Estructura HTML",
+  "crit": "Etiquetas con for",
+  "exp": "4 × div.campo > label[for]",
+  "found": "4",
+  "status": "cumple"
+ },
+ {
+  "pagina": "contacto",
+  "cat": "Estructura HTML",
+  "crit": "Textarea en mensaje",
+  "exp": "1 × textarea#campo-mensaje",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "pagina": "contacto",
+  "cat": "Estructura HTML",
+  "crit": "Errores ocultos bajo cada campo",
+  "exp": "4 × div.campo > p.mensaje-error[hidden]",
+  "found": "4",
+  "status": "cumple"
+ },
+ {
+  "pagina": "contacto",
+  "cat": "Estructura HTML",
+  "crit": "Botón Enviar",
+  "exp": "1 × button#btn-enviar.boton.boton-primario",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "pagina": "contacto",
+  "cat": "Estructura HTML",
+  "crit": "Mensaje de éxito oculto",
+  "exp": "1 × section#formulario > p#mensaje-exito.mensaje-exito[hidden]",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "pagina": "contacto",
+  "cat": "Estructura HTML",
+  "crit": "h1 en toda la página",
+  "exp": "1 × h1",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "pagina": "contacto",
+  "cat": "Accesibilidad",
+  "crit": "Todas las imágenes tienen atributo alt",
+  "exp": "0 sin alt",
+  "found": "0 sin alt",
+  "status": "cumple"
+ },
+ {
+  "pagina": "contacto",
+  "cat": "Maquetación",
+  "crit": "Sin desplazamiento horizontal (1440 px)",
+  "exp": "sí",
+  "found": "sí",
+  "status": "cumple"
+ },
+ {
+  "pagina": "contacto",
+  "cat": "Maquetación",
+  "crit": "Datos a la izquierda y formulario a la derecha",
+  "exp": "dos columnas",
+  "found": "dos columnas",
+  "status": "cumple"
+ },
+ {
+  "pagina": "contacto",
+  "cat": "Campos",
+  "crit": "Campo: borde",
+  "exp": "rgb(139, 147, 163)",
+  "found": "rgb(139, 147, 163)",
+  "status": "cumple"
+ },
+ {
+  "pagina": "contacto",
+  "cat": "Campos",
+  "crit": "Campo: esquinas 8 px",
+  "exp": "8px",
+  "found": "8px",
+  "status": "cumple"
+ },
+ {
+  "pagina": "contacto",
+  "cat": "Campos",
+  "crit": "Campo: altura mínima 44 px",
+  "exp": "44px",
+  "found": "44px",
+  "status": "cumple"
+ },
+ {
+  "pagina": "contacto",
+  "cat": "Campos",
+  "crit": "Campo: texto 16 px",
+  "exp": "16px",
+  "found": "16px",
+  "status": "cumple"
+ },
+ {
+  "pagina": "contacto",
+  "cat": "Botones",
+  "crit": "Enviar deshabilitado: fondo #D5DAE3",
+  "exp": "rgb(213, 218, 227)",
+  "found": "rgb(213, 218, 227)",
+  "status": "cumple"
+ },
+ {
+  "pagina": "contacto",
+  "cat": "Botones",
+  "crit": "Enviar deshabilitado: texto #5F6778",
+  "exp": "rgb(95, 103, 120)",
+  "found": "rgb(95, 103, 120)",
+  "status": "cumple"
+ },
+ {
+  "pagina": "contacto",
+  "cat": "Botones",
+  "crit": "Enviar deshabilitado: cursor not-allowed",
+  "exp": "not-allowed",
+  "found": "not-allowed",
+  "status": "cumple"
+ },
+ {
+  "pagina": "contacto",
+  "cat": "JavaScript",
+  "crit": "Enviar deshabilitado al cargar",
+  "exp": "deshabilitado",
+  "found": "deshabilitado",
+  "status": "cumple"
+ },
+ {
+  "pagina": "contacto",
+  "cat": "JavaScript",
+  "crit": "Correo inválido: error visible bajo el campo",
+  "exp": "visible, con mensaje",
+  "found": "visible: Escribe un correo válido, por ejemplo nombre@dominio.com.",
+  "status": "cumple"
+ },
+ {
+  "pagina": "contacto",
+  "cat": "JavaScript",
+  "crit": "Correo inválido: Enviar sigue deshabilitado",
+  "exp": "deshabilitado",
+  "found": "deshabilitado",
+  "status": "cumple"
+ },
+ {
+  "pagina": "contacto",
+  "cat": "JavaScript",
+  "crit": "Color del mensaje de error #C93535",
+  "exp": "rgb(201, 53, 53)",
+  "found": "rgb(201, 53, 53)",
+  "status": "cumple"
+ },
+ {
+  "pagina": "contacto",
+  "cat": "JavaScript",
+  "crit": "Formulario válido: Enviar se habilita",
+  "exp": "habilitado",
+  "found": "habilitado",
+  "status": "cumple"
+ },
+ {
+  "pagina": "contacto",
+  "cat": "JavaScript",
+  "crit": "Mensaje de éxito oculto antes de enviar",
+  "exp": "oculto",
+  "found": "oculto",
+  "status": "cumple"
+ },
+ {
+  "pagina": "contacto",
+  "cat": "JavaScript",
+  "crit": "Al enviar: aparece \"Mensaje enviado\", se limpia el formulario y Enviar vuelve a deshabilitarse",
+  "exp": "éxito visible, campos vacíos, botón deshabilitado",
+  "found": "éxito visible, nombre \"\", botón deshabilitado",
+  "status": "cumple"
+ },
+ {
+  "pagina": "contacto",
+  "cat": "Colores",
+  "crit": "Mensaje de éxito #1A7F4F",
+  "exp": "rgb(26, 127, 79)",
+  "found": "rgb(26, 127, 79)",
+  "status": "cumple"
+ },
+ {
+  "pagina": "login",
+  "cat": "Estructura HTML",
+  "crit": "Encabezado y pie comunes (12 nodos del árbol)",
+  "exp": "12 de 12",
+  "found": "12 de 12",
+  "status": "cumple"
+ },
+ {
+  "pagina": "login",
+  "cat": "Estructura HTML",
+  "crit": "Ítem activo del menú (aria-current=\"page\")",
+  "exp": "ninguno",
+  "found": "ninguno",
+  "status": "cumple"
+ },
+ {
+  "pagina": "login",
+  "cat": "Estructura HTML",
+  "crit": "Tarjeta de acceso",
+  "exp": "1 × main#contenido > section#acceso.tarjeta-acceso",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "pagina": "login",
+  "cat": "Estructura HTML",
+  "crit": "h1 solo para lectores",
+  "exp": "1 × h1.solo-lectores",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "pagina": "login",
+  "cat": "Estructura HTML",
+  "crit": "Mascota con alt",
+  "exp": "1 × img.mascota[alt=\"Mascota de ApeByte\"]",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "pagina": "login",
+  "cat": "Estructura HTML",
+  "crit": "Pestañas (tablist)",
+  "exp": "1 × div.pestanas[role=\"tablist\"]",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "pagina": "login",
+  "cat": "Estructura HTML",
+  "crit": "Botones de pestaña",
+  "exp": "2 × button#tab-login.pestana, button#tab-registro.pestana",
+  "found": "2",
+  "status": "cumple"
+ },
+ {
+  "pagina": "login",
+  "cat": "Estructura HTML",
+  "crit": "Formulario de inicio",
+  "exp": "1 × form#form-login[role=\"tabpanel\"]",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "pagina": "login",
+  "cat": "Estructura HTML",
+  "crit": "Campos de inicio",
+  "exp": "2 × #campo-login-usuario, #campo-login-clave",
+  "found": "2",
+  "status": "cumple"
+ },
+ {
+  "pagina": "login",
+  "cat": "Estructura HTML",
+  "crit": "Error de inicio oculto",
+  "exp": "1 × p#error-login.mensaje-error[hidden]",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "pagina": "login",
+  "cat": "Estructura HTML",
+  "crit": "Botón Entrar",
+  "exp": "1 × button#btn-entrar.boton.boton-primario",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "pagina": "login",
+  "cat": "Estructura HTML",
+  "crit": "Enlace ¿Olvidaste tu contraseña?",
+  "exp": "1 × form#form-login > a",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "pagina": "login",
+  "cat": "Estructura HTML",
+  "crit": "Formulario de registro oculto",
+  "exp": "1 × form#form-registro[role=\"tabpanel\"][hidden]",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "pagina": "login",
+  "cat": "Estructura HTML",
+  "crit": "Campos de registro",
+  "exp": "4 × #campo-registro-nombre, #campo-registro-correo, #campo-registro-cla…",
+  "found": "4",
+  "status": "cumple"
+ },
+ {
+  "pagina": "login",
+  "cat": "Estructura HTML",
+  "crit": "Error de registro oculto",
+  "exp": "1 × p#error-registro.mensaje-error[hidden]",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "pagina": "login",
+  "cat": "Estructura HTML",
+  "crit": "Botón Crear cuenta",
+  "exp": "1 × button#btn-crear-cuenta.boton.boton-primario",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "pagina": "login",
+  "cat": "Estructura HTML",
+  "crit": "Etiquetas con for",
+  "exp": "6 × form label[for]",
+  "found": "6",
+  "status": "cumple"
+ },
+ {
+  "pagina": "login",
+  "cat": "Estructura HTML",
+  "crit": "h1 en toda la página",
+  "exp": "1 × h1",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "pagina": "login",
+  "cat": "Accesibilidad",
+  "crit": "Todas las imágenes tienen atributo alt",
+  "exp": "0 sin alt",
+  "found": "0 sin alt",
+  "status": "cumple"
+ },
+ {
+  "pagina": "login",
+  "cat": "Maquetación",
+  "crit": "Sin desplazamiento horizontal (1440 px)",
+  "exp": "sí",
+  "found": "sí",
+  "status": "cumple"
+ },
+ {
+  "pagina": "login",
+  "cat": "Colores",
+  "crit": "Fondo de la pantalla de login #F3F5F9",
+  "exp": "rgb(243, 245, 249)",
+  "found": "rgb(243, 245, 249)",
+  "status": "cumple"
+ },
+ {
+  "pagina": "login",
+  "cat": "Maquetación",
+  "crit": "Tarjeta centrada de 440 px de ancho",
+  "exp": "440 px, centrada",
+  "found": "440 px, centrada",
+  "status": "cumple"
+ },
+ {
+  "pagina": "login",
+  "cat": "Espaciados",
+  "crit": "Tarjeta: esquinas 12 px",
+  "exp": "12px",
+  "found": "12px",
+  "status": "cumple"
+ },
+ {
+  "pagina": "login",
+  "cat": "Botones",
+  "crit": "Pestaña activa: azul marino",
+  "exp": "rgb(11, 21, 48)",
+  "found": "rgb(11, 21, 48)",
+  "status": "cumple"
+ },
+ {
+  "pagina": "login",
+  "cat": "Botones",
+  "crit": "Entrar: ancho completo y estilo primario",
+  "exp": "rgb(26, 111, 240)",
+  "found": "rgb(26, 111, 240)",
+  "status": "cumple"
+ },
+ {
+  "pagina": "login",
+  "cat": "Tipografía",
+  "crit": "h1.solo-lectores oculto a la vista (1 px)",
+  "exp": "1px",
+  "found": "1px",
+  "status": "cumple"
+ },
+ {
+  "pagina": "login",
+  "cat": "JavaScript",
+  "crit": "Estado inicial: \"Iniciar sesión\" activa, registro oculto",
+  "exp": "true, login visible, registro oculto",
+  "found": "true, login visible, registro oculto",
+  "status": "cumple"
+ },
+ {
+  "pagina": "login",
+  "cat": "JavaScript",
+  "crit": "Entrar con campos vacíos: error en línea",
+  "exp": "error visible",
+  "found": "visible: Escribe tu usuario o correo y tu contraseña.",
+  "status": "cumple"
+ },
+ {
+  "pagina": "login",
+  "cat": "JavaScript",
+  "crit": "Al escribir, el error desaparece",
+  "exp": "oculto",
+  "found": "oculto",
+  "status": "cumple"
+ },
+ {
+  "pagina": "login",
+  "cat": "JavaScript",
+  "crit": "Envío válido: botón deshabilitado mientras envía",
+  "exp": "deshabilitado",
+  "found": "deshabilitado",
+  "status": "cumple"
+ },
+ {
+  "pagina": "login",
+  "cat": "JavaScript",
+  "crit": "Después del envío el botón se habilita de nuevo",
+  "exp": "habilitado",
+  "found": "habilitado",
+  "status": "cumple"
+ },
+ {
+  "pagina": "login",
+  "cat": "JavaScript",
+  "crit": "Pestaña \"Crear cuenta\": alterna formularios y aria-selected",
+  "exp": "registro visible, login oculto, aria-selected true/false",
+  "found": "registro visible, login oculto, aria-selected true/false",
+  "status": "cumple"
+ },
+ {
+  "pagina": "login",
+  "cat": "JavaScript",
+  "crit": "Contraseñas distintas: \"Las contraseñas no coinciden.\"",
+  "exp": "Las contraseñas no coinciden.",
+  "found": "Las contraseñas no coinciden.",
+  "status": "cumple"
+ },
+ {
+  "pagina": "login",
+  "cat": "JavaScript",
+  "crit": "Teclado: flecha izquierda vuelve a \"Iniciar sesión\"",
+  "exp": "true",
+  "found": "true",
+  "status": "cumple"
+ },
+ {
+  "pagina": "privacidad",
+  "cat": "Estructura HTML",
+  "crit": "Encabezado y pie comunes (12 nodos del árbol)",
+  "exp": "12 de 12",
+  "found": "12 de 12",
+  "status": "cumple"
+ },
+ {
+  "pagina": "privacidad",
+  "cat": "Estructura HTML",
+  "crit": "Ítem activo del menú (aria-current=\"page\")",
+  "exp": "ninguno",
+  "found": "ninguno",
+  "status": "cumple"
+ },
+ {
+  "pagina": "privacidad",
+  "cat": "Estructura HTML",
+  "crit": "Artículo legal",
+  "exp": "1 × main#contenido > article#documento-legal.lectura",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "pagina": "privacidad",
+  "cat": "Estructura HTML",
+  "crit": "h1",
+  "exp": "1 × article#documento-legal > h1",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "pagina": "privacidad",
+  "cat": "Estructura HTML",
+  "crit": "Fecha de actualización",
+  "exp": "1 × article#documento-legal > p.fecha-actualizacion",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "pagina": "privacidad",
+  "cat": "Estructura HTML",
+  "crit": "Cláusulas",
+  "exp": "4 × article#documento-legal > section.clausula",
+  "found": "4",
+  "status": "cumple"
+ },
+ {
+  "pagina": "privacidad",
+  "cat": "Estructura HTML",
+  "crit": "Cláusulas con h2 y p",
+  "exp": "8 × section.clausula > h2, section.clausula > p",
+  "found": "8",
+  "status": "cumple"
+ },
+ {
+  "pagina": "privacidad",
+  "cat": "Estructura HTML",
+  "crit": "h1 en toda la página",
+  "exp": "1 × h1",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "pagina": "privacidad",
+  "cat": "Accesibilidad",
+  "crit": "Todas las imágenes tienen atributo alt",
+  "exp": "0 sin alt",
+  "found": "0 sin alt",
+  "status": "cumple"
+ },
+ {
+  "pagina": "privacidad",
+  "cat": "Maquetación",
+  "crit": "Sin desplazamiento horizontal (1440 px)",
+  "exp": "sí",
+  "found": "sí",
+  "status": "cumple"
+ },
+ {
+  "pagina": "privacidad",
+  "cat": "Maquetación",
+  "crit": "Columna de lectura de 800 px",
+  "exp": "800 px",
+  "found": "800 px",
+  "status": "cumple"
+ },
+ {
+  "pagina": "privacidad",
+  "cat": "Colores",
+  "crit": "Fecha de actualización: texto suave",
+  "exp": "rgb(95, 103, 120)",
+  "found": "rgb(95, 103, 120)",
+  "status": "cumple"
+ },
+ {
+  "pagina": "terminos",
+  "cat": "Estructura HTML",
+  "crit": "Encabezado y pie comunes (12 nodos del árbol)",
+  "exp": "12 de 12",
+  "found": "12 de 12",
+  "status": "cumple"
+ },
+ {
+  "pagina": "terminos",
+  "cat": "Estructura HTML",
+  "crit": "Ítem activo del menú (aria-current=\"page\")",
+  "exp": "ninguno",
+  "found": "ninguno",
+  "status": "cumple"
+ },
+ {
+  "pagina": "terminos",
+  "cat": "Estructura HTML",
+  "crit": "Artículo legal",
+  "exp": "1 × main#contenido > article#documento-legal.lectura",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "pagina": "terminos",
+  "cat": "Estructura HTML",
+  "crit": "h1",
+  "exp": "1 × article#documento-legal > h1",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "pagina": "terminos",
+  "cat": "Estructura HTML",
+  "crit": "Fecha de actualización",
+  "exp": "1 × article#documento-legal > p.fecha-actualizacion",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "pagina": "terminos",
+  "cat": "Estructura HTML",
+  "crit": "Cláusulas",
+  "exp": "4 × article#documento-legal > section.clausula",
+  "found": "4",
+  "status": "cumple"
+ },
+ {
+  "pagina": "terminos",
+  "cat": "Estructura HTML",
+  "crit": "Cláusulas con h2 y p",
+  "exp": "8 × section.clausula > h2, section.clausula > p",
+  "found": "8",
+  "status": "cumple"
+ },
+ {
+  "pagina": "terminos",
+  "cat": "Estructura HTML",
+  "crit": "h1 en toda la página",
+  "exp": "1 × h1",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "pagina": "terminos",
+  "cat": "Accesibilidad",
+  "crit": "Todas las imágenes tienen atributo alt",
+  "exp": "0 sin alt",
+  "found": "0 sin alt",
+  "status": "cumple"
+ },
+ {
+  "pagina": "terminos",
+  "cat": "Maquetación",
+  "crit": "Sin desplazamiento horizontal (1440 px)",
+  "exp": "sí",
+  "found": "sí",
+  "status": "cumple"
+ },
+ {
+  "pagina": "terminos",
+  "cat": "Maquetación",
+  "crit": "Columna de lectura de 800 px",
+  "exp": "800 px",
+  "found": "800 px",
+  "status": "cumple"
+ },
+ {
+  "pagina": "terminos",
+  "cat": "Colores",
+  "crit": "Fecha de actualización: texto suave",
+  "exp": "rgb(95, 103, 120)",
+  "found": "rgb(95, 103, 120)",
+  "status": "cumple"
+ },
+ {
+  "pagina": "caracteristicas",
+  "cat": "JavaScript",
+  "crit": "Al bajar a Docker, el índice marca solo \"Docker\"",
+  "exp": "#docker (aria-current)",
+  "found": "#docker (aria-current)",
+  "status": "cumple"
+ },
+ {
+  "pagina": "caracteristicas",
+  "cat": "JavaScript",
+  "crit": "Clic en un enlace del índice lleva a su bloque",
+  "exp": "scroll hacia #logs",
+  "found": "scrollY=1387",
+  "status": "cumple"
+ },
+ {
+  "pagina": "documentacion",
+  "cat": "JavaScript",
+  "crit": "Copiar: el portapapeles recibe el código",
+  "exp": "zip -r mi-proyecto.zip mi-proyecto/",
+  "found": "zip -r mi-proyecto.zip mi-proyecto/",
+  "status": "cumple"
+ },
+ {
+  "pagina": "documentacion",
+  "cat": "JavaScript",
+  "crit": "Copiar: el botón dice \"Copiado\" un momento",
+  "exp": "Copiado",
+  "found": "Copiado",
+  "status": "cumple"
+ },
+ {
+  "pagina": "documentacion",
+  "cat": "JavaScript",
+  "crit": "Pregunta: al pulsar se abre (aria-expanded=true, respuesta visible)",
+  "exp": "true, visible",
+  "found": "true, visible",
+  "status": "cumple"
+ },
+ {
+  "pagina": "documentacion",
+  "cat": "JavaScript",
+  "crit": "Pregunta: al pulsar otra vez se cierra",
+  "exp": "false, oculta",
+  "found": "false, oculta",
+  "status": "cumple"
+ },
+ {
+  "pagina": "documentacion",
+  "cat": "JavaScript",
+  "crit": "Al cargar, el índice marca \"Guía de inicio\"",
+  "exp": "#guia-de-inicio",
+  "found": "#guia-de-inicio",
+  "status": "cumple"
+ },
+ {
+  "pagina": "documentacion",
+  "cat": "JavaScript",
+  "crit": "Al llegar al final, el índice marca \"Preguntas frecuentes\"",
+  "exp": "#preguntas-frecuentes",
+  "found": "#preguntas-frecuentes",
+  "status": "cumple"
+ },
+ {
+  "pagina": "caracteristicas",
+  "cat": "Móvil (390 px)",
+  "crit": "Sin desplazamiento horizontal",
+  "exp": "sí",
+  "found": "sí",
+  "status": "cumple"
+ },
+ {
+  "pagina": "caracteristicas",
+  "cat": "Móvil (390 px)",
+  "crit": "Menú hamburguesa: botón visible, menú colapsado y se abre al pulsar (con \"Iniciar sesión\" dentro)",
+  "exp": "block, none → true, block",
+  "found": "block, none → true, block",
+  "status": "cumple"
+ },
+ {
+  "pagina": "caracteristicas",
+  "cat": "Móvil (390 px)",
+  "crit": "Pie en una columna",
+  "exp": "enlaces apilados",
+  "found": "apilados",
+  "status": "cumple"
+ },
+ {
+  "pagina": "caracteristicas",
+  "cat": "Móvil (390 px)",
+  "crit": "Índice encima del contenido (una columna)",
+  "exp": "una columna",
+  "found": "una columna",
+  "status": "cumple"
+ },
+ {
+  "pagina": "como-funciona",
+  "cat": "Móvil (390 px)",
+  "crit": "Sin desplazamiento horizontal",
+  "exp": "sí",
+  "found": "sí",
+  "status": "cumple"
+ },
+ {
+  "pagina": "como-funciona",
+  "cat": "Móvil (390 px)",
+  "crit": "Menú hamburguesa: botón visible, menú colapsado y se abre al pulsar (con \"Iniciar sesión\" dentro)",
+  "exp": "block, none → true, block",
+  "found": "block, none → true, block",
+  "status": "cumple"
+ },
+ {
+  "pagina": "como-funciona",
+  "cat": "Móvil (390 px)",
+  "crit": "Pie en una columna",
+  "exp": "enlaces apilados",
+  "found": "apilados",
+  "status": "cumple"
+ },
+ {
+  "pagina": "como-funciona",
+  "cat": "Móvil (390 px)",
+  "crit": "Ilustración debajo del texto (1k)",
+  "exp": "debajo",
+  "found": "debajo",
+  "status": "cumple"
+ },
+ {
+  "pagina": "tecnologias",
+  "cat": "Móvil (390 px)",
+  "crit": "Sin desplazamiento horizontal",
+  "exp": "sí",
+  "found": "sí",
+  "status": "cumple"
+ },
+ {
+  "pagina": "tecnologias",
+  "cat": "Móvil (390 px)",
+  "crit": "Menú hamburguesa: botón visible, menú colapsado y se abre al pulsar (con \"Iniciar sesión\" dentro)",
+  "exp": "block, none → true, block",
+  "found": "block, none → true, block",
+  "status": "cumple"
+ },
+ {
+  "pagina": "tecnologias",
+  "cat": "Móvil (390 px)",
+  "crit": "Pie en una columna",
+  "exp": "enlaces apilados",
+  "found": "apilados",
+  "status": "cumple"
+ },
+ {
+  "pagina": "documentacion",
+  "cat": "Móvil (390 px)",
+  "crit": "Sin desplazamiento horizontal",
+  "exp": "sí",
+  "found": "sí",
+  "status": "cumple"
+ },
+ {
+  "pagina": "documentacion",
+  "cat": "Móvil (390 px)",
+  "crit": "Menú hamburguesa: botón visible, menú colapsado y se abre al pulsar (con \"Iniciar sesión\" dentro)",
+  "exp": "block, none → true, block",
+  "found": "block, none → true, block",
+  "status": "cumple"
+ },
+ {
+  "pagina": "documentacion",
+  "cat": "Móvil (390 px)",
+  "crit": "Pie en una columna",
+  "exp": "enlaces apilados",
+  "found": "apilados",
+  "status": "cumple"
+ },
+ {
+  "pagina": "documentacion",
+  "cat": "Móvil (390 px)",
+  "crit": "Índice encima del contenido (una columna)",
+  "exp": "una columna",
+  "found": "una columna",
+  "status": "cumple"
+ },
+ {
+  "pagina": "acerca-de",
+  "cat": "Móvil (390 px)",
+  "crit": "Sin desplazamiento horizontal",
+  "exp": "sí",
+  "found": "sí",
+  "status": "cumple"
+ },
+ {
+  "pagina": "acerca-de",
+  "cat": "Móvil (390 px)",
+  "crit": "Menú hamburguesa: botón visible, menú colapsado y se abre al pulsar (con \"Iniciar sesión\" dentro)",
+  "exp": "block, none → true, block",
+  "found": "block, none → true, block",
+  "status": "cumple"
+ },
+ {
+  "pagina": "acerca-de",
+  "cat": "Móvil (390 px)",
+  "crit": "Pie en una columna",
+  "exp": "enlaces apilados",
+  "found": "apilados",
+  "status": "cumple"
+ },
+ {
+  "pagina": "acerca-de",
+  "cat": "Móvil (390 px)",
+  "crit": "Línea de tiempo vertical",
+  "exp": "vertical",
+  "found": "vertical",
+  "status": "cumple"
+ },
+ {
+  "pagina": "contacto",
+  "cat": "Móvil (390 px)",
+  "crit": "Sin desplazamiento horizontal",
+  "exp": "sí",
+  "found": "sí",
+  "status": "cumple"
+ },
+ {
+  "pagina": "contacto",
+  "cat": "Móvil (390 px)",
+  "crit": "Menú hamburguesa: botón visible, menú colapsado y se abre al pulsar (con \"Iniciar sesión\" dentro)",
+  "exp": "block, none → true, block",
+  "found": "block, none → true, block",
+  "status": "cumple"
+ },
+ {
+  "pagina": "contacto",
+  "cat": "Móvil (390 px)",
+  "crit": "Pie en una columna",
+  "exp": "enlaces apilados",
+  "found": "apilados",
+  "status": "cumple"
+ },
+ {
+  "pagina": "contacto",
+  "cat": "Móvil (390 px)",
+  "crit": "Una columna: datos y luego formulario",
+  "exp": "una columna",
+  "found": "una columna",
+  "status": "cumple"
+ },
+ {
+  "pagina": "login",
+  "cat": "Móvil (390 px)",
+  "crit": "Sin desplazamiento horizontal",
+  "exp": "sí",
+  "found": "sí",
+  "status": "cumple"
+ },
+ {
+  "pagina": "login",
+  "cat": "Móvil (390 px)",
+  "crit": "Menú hamburguesa: botón visible, menú colapsado y se abre al pulsar (con \"Iniciar sesión\" dentro)",
+  "exp": "block, none → true, block",
+  "found": "block, none → true, block",
+  "status": "cumple"
+ },
+ {
+  "pagina": "login",
+  "cat": "Móvil (390 px)",
+  "crit": "Pie en una columna",
+  "exp": "enlaces apilados",
+  "found": "apilados",
+  "status": "cumple"
+ },
+ {
+  "pagina": "login",
+  "cat": "Móvil (390 px)",
+  "crit": "Tarjeta a todo el ancho con margen de 16 px (1l)",
+  "exp": "x=16, ancho 358",
+  "found": "x=16, ancho 358",
+  "status": "cumple"
+ },
+ {
+  "pagina": "privacidad",
+  "cat": "Móvil (390 px)",
+  "crit": "Sin desplazamiento horizontal",
+  "exp": "sí",
+  "found": "sí",
+  "status": "cumple"
+ },
+ {
+  "pagina": "privacidad",
+  "cat": "Móvil (390 px)",
+  "crit": "Menú hamburguesa: botón visible, menú colapsado y se abre al pulsar (con \"Iniciar sesión\" dentro)",
+  "exp": "block, none → true, block",
+  "found": "block, none → true, block",
+  "status": "cumple"
+ },
+ {
+  "pagina": "privacidad",
+  "cat": "Móvil (390 px)",
+  "crit": "Pie en una columna",
+  "exp": "enlaces apilados",
+  "found": "apilados",
+  "status": "cumple"
+ },
+ {
+  "pagina": "terminos",
+  "cat": "Móvil (390 px)",
+  "crit": "Sin desplazamiento horizontal",
+  "exp": "sí",
+  "found": "sí",
+  "status": "cumple"
+ },
+ {
+  "pagina": "terminos",
+  "cat": "Móvil (390 px)",
+  "crit": "Menú hamburguesa: botón visible, menú colapsado y se abre al pulsar (con \"Iniciar sesión\" dentro)",
+  "exp": "block, none → true, block",
+  "found": "block, none → true, block",
+  "status": "cumple"
+ },
+ {
+  "pagina": "terminos",
+  "cat": "Móvil (390 px)",
+  "crit": "Pie en una columna",
+  "exp": "enlaces apilados",
+  "found": "apilados",
+  "status": "cumple"
+ }
+]

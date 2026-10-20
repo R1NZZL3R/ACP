@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iniciar sesión · ApeByte Cloud Platform (ACP)</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header id="encabezado">
+    <a class="logo" href="/">
+      <img src="assets/img/logo.png" alt="Logo de ApeByte">
+    </a>
+    <nav id="menu-principal" aria-label="Principal">
+      <ul>
+        <li><a class="enlace-menu" href="/caracteristicas">Características</a></li>
+        <li><a class="enlace-menu" href="/como-funciona">Cómo funciona</a></li>
+        <li><a class="enlace-menu" href="/tecnologias">Tecnologías</a></li>
+        <li><a class="enlace-menu" href="/documentacion">Documentación</a></li>
+        <li><a class="enlace-menu" href="/acerca-de">Acerca de</a></li>
+        <li><a class="enlace-menu" href="/contacto">Contacto</a></li>
+        <li class="item-sesion"><a class="boton boton-primario" href="/login">Iniciar sesión</a></li>
+      </ul>
+    </nav>
+    <button id="btn-menu" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir menú">
+      <img src="assets/icons/menu.svg" alt="">
+    </button>
+  </header>
+
+  <main id="contenido">
+    <section id="acceso" class="tarjeta-acceso">
+      <h1 class="solo-lectores">Acceso a ACP</h1>
+      <img class="mascota" src="assets/img/mascota.png" alt="Mascota de ApeByte">
+      <div class="pestanas" role="tablist">
+        <button id="tab-login" class="pestana" type="button" role="tab" aria-selected="true" aria-controls="form-login">Iniciar sesión</button>
+        <button id="tab-registro" class="pestana" type="button" role="tab" aria-selected="false" aria-controls="form-registro" tabindex="-1">Crear cuenta</button>
+      </div>
+
+      <form id="form-login" role="tabpanel" aria-labelledby="tab-login" novalidate>
+        <div class="campo">
+          <label for="campo-login-usuario">Usuario o correo</label>
+          <input id="campo-login-usuario" name="usuario" type="text" placeholder="usuario@ejemplo.com" autocomplete="username">
+        </div>
+        <div class="campo">
+          <label for="campo-login-clave">Contraseña</label>
+          <input id="campo-login-clave" name="clave" type="password" placeholder="••••••••" autocomplete="current-password">
+        </div>
+        <p id="error-login" class="mensaje-error" role="alert" hidden></p>
+        <button id="btn-entrar" class="boton boton-primario" type="submit">Entrar</button>
+        <a class="enlace-olvido" href="#">¿Olvidaste tu contraseña?</a>
+      </form>
+
+      <form id="form-registro" role="tabpanel" aria-labelledby="tab-registro" novalidate hidden>
+        <div class="campo">
+          <label for="campo-registro-nombre">Nombre</label>
+          <input id="campo-registro-nombre" name="nombre" type="text" placeholder="Tu nombre" autocomplete="name">
+        </div>
+        <div class="campo">
+          <label for="campo-registro-correo">Correo</label>
+          <input id="campo-registro-correo" name="correo" type="email" placeholder="correo@ejemplo.com" autocomplete="email">
+        </div>
+        <div class="campo">
+          <label for="campo-registro-clave">Contraseña</label>
+          <input id="campo-registro-clave" name="clave" type="password" placeholder="••••••••" autocomplete="new-password">
+        </div>
+        <div class="campo">
+          <label for="campo-registro-clave2">Confirmar contraseña</label>
+          <input id="campo-registro-clave2" name="clave2" type="password" placeholder="••••••••" autocomplete="new-password">
+        </div>
+        <p id="error-registro" class="mensaje-error" role="alert" hidden></p>
+        <button id="btn-crear-cuenta" class="boton boton-primario" type="submit">Crear cuenta</button>
+      </form>
+    </section>
+  </main>
+
+  <footer id="pie">
+    <a class="logo" href="/">
+      <img src="assets/img/logo.png" alt="Logo de ApeByte">
+    </a>
+    <nav id="menu-pie" aria-label="Enlaces secundarios">
+      <ul>
+        <li><a class="enlace-pie" href="/privacidad">Aviso de privacidad</a></li>
+        <li><a class="enlace-pie" href="/terminos">Términos de uso</a></li>
+        <li><a class="enlace-pie" href="https://github.com/">Repositorio</a></li>
+        <li><a class="enlace-pie" href="/contacto">Contacto rápido</a></li>
+      </ul>
+    </nav>
+    <p class="derechos">© ACP · Proyecto de Desarrollo Web</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

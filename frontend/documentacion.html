@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Documentación · ApeByte Cloud Platform (ACP)</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header id="encabezado">
+    <a class="logo" href="/">
+      <img src="assets/img/logo.png" alt="Logo de ApeByte">
+    </a>
+    <nav id="menu-principal" aria-label="Principal">
+      <ul>
+        <li><a class="enlace-menu" href="/caracteristicas">Características</a></li>
+        <li><a class="enlace-menu" href="/como-funciona">Cómo funciona</a></li>
+        <li><a class="enlace-menu" href="/tecnologias">Tecnologías</a></li>
+        <li><a class="enlace-menu" href="/documentacion" aria-current="page">Documentación</a></li>
+        <li><a class="enlace-menu" href="/acerca-de">Acerca de</a></li>
+        <li><a class="enlace-menu" href="/contacto">Contacto</a></li>
+        <li class="item-sesion"><a class="boton boton-primario" href="/login">Iniciar sesión</a></li>
+      </ul>
+    </nav>
+    <button id="btn-menu" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir menú">
+      <img src="assets/icons/menu.svg" alt="">
+    </button>
+  </header>
+
+  <main id="contenido">
+    <div class="con-barra">
+      <aside id="indice">
+        <p class="titulo-indice">Documentación</p>
+        <nav aria-label="Documentación">
+          <ul>
+            <li><a class="enlace-indice" href="#guia-de-inicio">Guía de inicio</a></li>
+            <li><a class="enlace-indice" href="#requisitos">Requisitos</a></li>
+            <li><a class="enlace-indice" href="#preguntas-frecuentes">Preguntas frecuentes</a></li>
+          </ul>
+        </nav>
+      </aside>
+      <article id="documento">
+        <h1>Documentación</h1>
+        <p>Guía rápida para publicar tu primer proyecto en ACP, con lo que necesitas y respuestas a las dudas más comunes.</p>
+
+        <section id="guia-de-inicio">
+          <h2>Guía de inicio</h2>
+          <p>Cinco pasos y tu proyecto queda funcionando en tu red local.</p>
+          <ol class="guia-pasos">
+            <li>
+              <h3>Prepara tu proyecto</h3>
+              <p>Revisa que tenga sus archivos principales, por ejemplo <code>app.py</code> y <code>requirements.txt</code> (Python) o <code>package.json</code> (Node.js). No necesitas añadir ninguna configuración extra.</p>
+            </li>
+            <li>
+              <h3>Elige cómo subirlo</h3>
+              <p><strong>Como ZIP:</strong> comprime la carpeta de tu proyecto. Por ejemplo, desde una terminal:</p>
+              <div class="bloque-codigo">
+                <button class="boton-copiar" type="button">Copiar</button>
+                <pre><code>zip -r mi-proyecto.zip mi-proyecto/</code></pre>
+              </div>
+              <p><strong>Desde Git:</strong> copia la dirección de tu repositorio, por ejemplo:</p>
+              <div class="bloque-codigo">
+                <button class="boton-copiar" type="button">Copiar</button>
+                <pre><code>https://github.com/usuario/mi-proyecto.git</code></pre>
+              </div>
+            </li>
+            <li>
+              <h3>Súbelo desde el panel</h3>
+              <p>Inicia sesión, abre el panel y elige el ZIP o pega la dirección del repositorio.</p>
+            </li>
+            <li>
+              <h3>Espera el despliegue</h3>
+              <p>ACP detecta la tecnología, construye tu proyecto y lo ejecuta en su propio contenedor Docker. Puedes ver el detalle en <a href="/como-funciona">Cómo funciona</a>.</p>
+            </li>
+            <li>
+              <h3>Abre tu proyecto</h3>
+              <p>Entra a la dirección local que ACP te asigna. Solo se abre desde tu red local.</p>
+            </li>
+          </ol>
+        </section>
+
+        <section id="requisitos">
+          <h2>Requisitos</h2>
+          <p>Antes de empezar, revisa que tengas esto a la mano.</p>
+          <ul class="requisitos-lista">
+            <li><strong>Una red local compartida</strong><span>Tu equipo debe estar conectado a la misma red local que ACP.</span></li>
+            <li><strong>Un proyecto en ZIP o Git</strong><span>Un archivo ZIP o la dirección de un repositorio.</span></li>
+            <li><strong>Una tecnología compatible</strong><span>Consulta la lista en <a href="/tecnologias">Tecnologías</a>.</span></li>
+            <li><strong>Una cuenta en ACP</strong><span>Puedes crearla desde <a href="/login">Iniciar sesión</a>.</span></li>
+          </ul>
+        </section>
+
+        <section id="preguntas-frecuentes">
+          <h2>Preguntas frecuentes</h2>
+          <p>Escribe lo que buscas o elige un tema. Toca una pregunta para ver su respuesta.</p>
+
+          <div class="faq-controles" hidden>
+            <div class="faq-buscador">
+              <label for="faq-buscar">Buscar una pregunta</label>
+              <input id="faq-buscar" type="search" placeholder="Por ejemplo: Docker, Internet, ZIP…" autocomplete="off">
+            </div>
+            <div class="faq-filtros" role="group" aria-label="Filtrar por tema">
+            <button class="faq-filtro" type="button" data-filtro="todas" aria-pressed="true">Todas</button>
+            <button class="faq-filtro" type="button" data-filtro="subir" aria-pressed="false">Subir proyectos</button>
+            <button class="faq-filtro" type="button" data-filtro="tecnologias" aria-pressed="false">Tecnologías</button>
+            <button class="faq-filtro" type="button" data-filtro="despliegue" aria-pressed="false">Despliegue</button>
+            <button class="faq-filtro" type="button" data-filtro="acceso" aria-pressed="false">Acceso y red</button>
+            </div>
+            <p id="faq-contador" class="faq-contador" aria-live="polite"></p>
+          </div>
+
+          <div class="faq-grupo" data-categoria="subir">
+            <h3>Subir proyectos</h3>
+            <details class="faq-item" data-categoria="subir">
+              <summary class="faq-pregunta"><span class="faq-icono"><img src="assets/icons/upload.svg" alt=""></span><span class="faq-texto">¿Qué formatos de proyecto acepta ACP?</span></summary>
+              <div class="faq-respuesta"><p>Puedes subir un archivo <strong>ZIP</strong> o indicar la dirección de un <strong>repositorio Git</strong>. Las dos formas llegan al mismo resultado: ACP recibe tu proyecto y lo prepara para desplegarlo.</p></div>
+            </details>
+            <details class="faq-item" data-categoria="subir">
+              <summary class="faq-pregunta"><span class="faq-icono"><img src="assets/icons/upload.svg" alt=""></span><span class="faq-texto">¿Tengo que escribir algún archivo de configuración?</span></summary>
+              <div class="faq-respuesta"><p>No. ACP revisa los archivos de tu proyecto y deduce solo con qué tecnología está hecho. Tú solo lo subes.</p></div>
+            </details>
+          </div>
+          <div class="faq-grupo" data-categoria="tecnologias">
+            <h3>Tecnologías</h3>
+            <details class="faq-item" data-categoria="tecnologias">
+              <summary class="faq-pregunta"><span class="faq-icono"><img src="assets/icons/scan-search.svg" alt=""></span><span class="faq-texto">¿Qué tecnologías reconoce?</span></summary>
+              <div class="faq-respuesta"><p>Las que aparecen en la página <a href="/tecnologias">Tecnologías</a>. La lista crece a medida que avanzan las fases del proyecto.</p></div>
+            </details>
+            <details class="faq-item" data-categoria="tecnologias">
+              <summary class="faq-pregunta"><span class="faq-icono"><img src="assets/icons/scan-search.svg" alt=""></span><span class="faq-texto">¿Qué bases de datos puedo usar?</span></summary>
+              <div class="faq-respuesta"><p>ACP es compatible con <strong>PostgreSQL</strong>, <strong>MySQL/MariaDB</strong> y <strong>MongoDB</strong>.</p></div>
+            </details>
+            <details class="faq-item" data-categoria="tecnologias">
+              <summary class="faq-pregunta"><span class="faq-icono"><img src="assets/icons/scan-search.svg" alt=""></span><span class="faq-texto">¿Y si mi proyecto no se reconoce?</span></summary>
+              <div class="faq-respuesta"><p>Escríbenos desde <a href="/contacto">Contacto</a> y cuéntanos con qué está hecho. Así sabemos qué tecnología conviene sumar.</p></div>
+            </details>
+          </div>
+          <div class="faq-grupo" data-categoria="despliegue">
+            <h3>Despliegue</h3>
+            <details class="faq-item" data-categoria="despliegue">
+              <summary class="faq-pregunta"><span class="faq-icono"><img src="assets/icons/container.svg" alt=""></span><span class="faq-texto">¿Qué es un contenedor?</span></summary>
+              <div class="faq-respuesta"><p>Es una caja aislada que lleva tu aplicación y todo lo que necesita para funcionar. ACP usa Docker para crear una por cada proyecto.</p></div>
+            </details>
+            <details class="faq-item" data-categoria="despliegue">
+              <summary class="faq-pregunta"><span class="faq-icono"><img src="assets/icons/container.svg" alt=""></span><span class="faq-texto">Si un proyecto falla, ¿afecta a los demás?</span></summary>
+              <div class="faq-respuesta"><p>No. Cada proyecto corre aislado en su propio contenedor, así que un error en uno no tumba a los otros.</p></div>
+            </details>
+            <details class="faq-item" data-categoria="despliegue">
+              <summary class="faq-pregunta"><span class="faq-icono"><img src="assets/icons/container.svg" alt=""></span><span class="faq-texto">¿Dónde veo los registros de mi proyecto?</span></summary>
+              <div class="faq-respuesta"><p>En la sección de logs del panel, cuando esté disponible. Llegará en una de las últimas fases del proyecto.</p></div>
+            </details>
+          </div>
+          <div class="faq-grupo" data-categoria="acceso">
+            <h3>Acceso y red</h3>
+            <details class="faq-item" data-categoria="acceso">
+              <summary class="faq-pregunta"><span class="faq-icono"><img src="assets/icons/link.svg" alt=""></span><span class="faq-texto">¿Necesito conexión a Internet?</span></summary>
+              <div class="faq-respuesta"><p>No para usar ACP: funciona en tu red local. Tu proyecto solo la necesita si descarga dependencias.</p></div>
+            </details>
+            <details class="faq-item" data-categoria="acceso">
+              <summary class="faq-pregunta"><span class="faq-icono"><img src="assets/icons/link.svg" alt=""></span><span class="faq-texto">¿Puede abrir mi proyecto alguien fuera de mi red?</span></summary>
+              <div class="faq-respuesta"><p>No. ACP no expone nada a Internet: solo pueden abrirlo los equipos conectados a la misma red local.</p></div>
+            </details>
+            <details class="faq-item" data-categoria="acceso">
+              <summary class="faq-pregunta"><span class="faq-icono"><img src="assets/icons/link.svg" alt=""></span><span class="faq-texto">¿Cómo es la dirección de mi proyecto?</span></summary>
+              <div class="faq-respuesta"><p>Cada proyecto tiene su propia dirección local, fácil de recordar. De dirigir las visitas al contenedor correcto se encarga Traefik.</p></div>
+            </details>
+          </div>
+
+          <p id="faq-vacio" class="faq-vacio" hidden>No encontramos preguntas con esa búsqueda. Prueba con otra palabra o quita el filtro.</p>
+
+          <aside class="faq-ayuda">
+            <div>
+              <h3>¿No encontraste lo que buscabas?</h3>
+              <p>Cuéntanos tu duda y te ayudamos.</p>
+            </div>
+            <a class="boton boton-secundario" href="/contacto">Escribirnos</a>
+          </aside>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <footer id="pie">
+    <a class="logo" href="/">
+      <img src="assets/img/logo.png" alt="Logo de ApeByte">
+    </a>
+    <nav id="menu-pie" aria-label="Enlaces secundarios">
+      <ul>
+        <li><a class="enlace-pie" href="/privacidad">Aviso de privacidad</a></li>
+        <li><a class="enlace-pie" href="/terminos">Términos de uso</a></li>
+        <li><a class="enlace-pie" href="https://github.com/">Repositorio</a></li>
+        <li><a class="enlace-pie" href="/contacto">Contacto rápido</a></li>
+      </ul>
+    </nav>
+    <p class="derechos">© ACP · Proyecto de Desarrollo Web</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

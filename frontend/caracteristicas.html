@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Características · ApeByte Cloud Platform (ACP)</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header id="encabezado">
+    <a class="logo" href="/">
+      <img src="assets/img/logo.png" alt="Logo de ApeByte">
+    </a>
+    <nav id="menu-principal" aria-label="Principal">
+      <ul>
+        <li><a class="enlace-menu" href="/caracteristicas" aria-current="page">Características</a></li>
+        <li><a class="enlace-menu" href="/como-funciona">Cómo funciona</a></li>
+        <li><a class="enlace-menu" href="/tecnologias">Tecnologías</a></li>
+        <li><a class="enlace-menu" href="/documentacion">Documentación</a></li>
+        <li><a class="enlace-menu" href="/acerca-de">Acerca de</a></li>
+        <li><a class="enlace-menu" href="/contacto">Contacto</a></li>
+        <li class="item-sesion"><a class="boton boton-primario" href="/login">Iniciar sesión</a></li>
+      </ul>
+    </nav>
+    <button id="btn-menu" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir menú">
+      <img src="assets/icons/menu.svg" alt="">
+    </button>
+  </header>
+
+  <main id="contenido">
+    <section id="intro">
+      <h1>Características</h1>
+      <p>Todo lo que ACP hace por ti, desde que subes tu proyecto hasta que lo abres en tu red local. Cada función indica en qué fase del proyecto se construye.</p>
+    </section>
+
+    <div class="con-barra">
+      <aside id="indice">
+        <p class="titulo-indice">Índice</p>
+        <nav aria-label="Índice de características">
+          <ul>
+            <li><a class="enlace-indice" href="#zip-git">Carga ZIP/Git</a></li>
+            <li><a class="enlace-indice" href="#deteccion">Detección</a></li>
+            <li><a class="enlace-indice" href="#docker">Docker</a></li>
+            <li><a class="enlace-indice" href="#bases-de-datos">Bases de datos</a></li>
+            <li><a class="enlace-indice" href="#traefik">URLs (Traefik)</a></li>
+            <li><a class="enlace-indice" href="#logs">Logs/monitoreo</a></li>
+          </ul>
+        </nav>
+      </aside>
+      <div class="bloques">
+        <article class="bloque" id="zip-git" data-inicio="2026-09-28" data-fin="2026-10-11">
+          <div class="bloque-texto">
+            <span class="bloque-icono"><img src="assets/icons/upload.svg" alt=""></span>
+            <p class="bloque-meta"><span class="chip-fase">Fase 2</span><span class="estado-funcion"></span></p>
+            <h2>Carga ZIP o Git</h2>
+            <p>Sube tu proyecto como archivo ZIP o indica la dirección de un repositorio Git. ACP lo recibe y lo prepara para desplegarlo.</p>
+            <ul class="lista-beneficios">
+              <li>Elige tu archivo ZIP o pega la dirección del repositorio.</li>
+              <li>Las dos formas llegan al mismo resultado.</li>
+              <li>Cada proyecto queda en su propio espacio.</li>
+            </ul>
+          </div>
+          <figure class="maqueta">
+            <div class="maqueta-visual" role="img" aria-label="Ejemplo: un archivo mi-proyecto.zip listo para subir o la dirección de un repositorio Git">
+              <div class="maqueta-barra"><span></span><span></span><span></span></div>
+              <div class="maqueta-cuerpo" aria-hidden="true">
+                <div class="zona-zip"><img src="assets/icons/upload.svg" alt=""><strong>mi-proyecto.zip</strong><small>Listo para subir</small></div>
+                <p class="maqueta-o">o</p>
+                <div class="campo-falso"><img src="assets/icons/git-branch.svg" alt="">github.com/usuario/mi-proyecto.git</div>
+              </div>
+            </div>
+            <figcaption>Ejemplo ilustrativo</figcaption>
+          </figure>
+        </article>
+        <article class="bloque" id="deteccion" data-inicio="2026-10-12" data-fin="2026-10-25">
+          <div class="bloque-texto">
+            <span class="bloque-icono"><img src="assets/icons/scan-search.svg" alt=""></span>
+            <p class="bloque-meta"><span class="chip-fase">Fase 3</span><span class="estado-funcion"></span></p>
+            <h2>Detección automática</h2>
+            <p>ACP revisa los archivos del proyecto y reconoce el lenguaje o framework que usa, para decidir cómo ejecutarlo sin que configures nada.</p>
+            <ul class="lista-beneficios">
+              <li>Sin archivos de configuración que escribir.</li>
+              <li>Reconoce archivos clave como <code>requirements.txt</code> o <code>package.json</code>.</li>
+              <li>Decide solo cómo construir tu proyecto.</li>
+            </ul>
+          </div>
+          <figure class="maqueta">
+            <div class="maqueta-visual" role="img" aria-label="Ejemplo: ACP lee package.json y server.js y detecta Node.js">
+              <div class="maqueta-barra"><span></span><span></span><span></span></div>
+              <div class="maqueta-cuerpo" aria-hidden="true">
+                <div class="archivo"><code>package.json</code><span class="chip-det">Node.js</span></div>
+                <div class="archivo"><code>server.js</code><span class="chip-det chip-gris">JavaScript</span></div>
+                <div class="archivo"><code>public/</code><span class="chip-det chip-gris">HTML</span></div>
+                <div class="resultado-det"><img src="assets/icons/scan-search.svg" alt="">Detectado: Node.js</div>
+              </div>
+            </div>
+            <figcaption>Ejemplo ilustrativo</figcaption>
+          </figure>
+        </article>
+        <article class="bloque" id="docker" data-inicio="2026-10-26" data-fin="2026-11-08">
+          <div class="bloque-texto">
+            <span class="bloque-icono"><img src="assets/icons/container.svg" alt=""></span>
+            <p class="bloque-meta"><span class="chip-fase">Fase 4</span><span class="estado-funcion"></span></p>
+            <h2>Despliegue con Docker</h2>
+            <p>Cada proyecto corre aislado en su propio contenedor, sin instalar nada extra en tu equipo.</p>
+            <ul class="lista-beneficios">
+              <li>Un contenedor por proyecto.</li>
+              <li>Si uno falla, los demás siguen funcionando.</li>
+              <li>Nada extra que instalar en tu equipo.</li>
+            </ul>
+          </div>
+          <figure class="maqueta">
+            <div class="maqueta-visual" role="img" aria-label="Ejemplo: tres proyectos, cada uno en su propio contenedor; dos en ejecución y uno detenido">
+              <div class="maqueta-barra"><span></span><span></span><span></span></div>
+              <div class="maqueta-cuerpo" aria-hidden="true">
+                <div class="contenedor-falso"><img src="assets/icons/container.svg" alt=""><code>tienda-web</code><span class="estado-punto activo">En ejecución</span></div>
+                <div class="contenedor-falso"><img src="assets/icons/container.svg" alt=""><code>blog-personal</code><span class="estado-punto activo">En ejecución</span></div>
+                <div class="contenedor-falso"><img src="assets/icons/container.svg" alt=""><code>api-notas</code><span class="estado-punto">Detenido</span></div>
+              </div>
+            </div>
+            <figcaption>Ejemplo ilustrativo</figcaption>
+          </figure>
+        </article>
+        <article class="bloque" id="bases-de-datos" data-inicio="2026-11-09" data-fin="2026-11-22">
+          <div class="bloque-texto">
+            <span class="bloque-icono"><img src="assets/icons/container.svg" alt=""></span>
+            <p class="bloque-meta"><span class="chip-fase">Fase 5</span><span class="estado-funcion"></span></p>
+            <h2>Bases de datos</h2>
+            <p>Si tu proyecto lo necesita, ACP prepara una base PostgreSQL, MySQL/MariaDB o MongoDB y la conecta con la aplicación.</p>
+            <ul class="lista-beneficios">
+              <li>Compatible con PostgreSQL, MySQL/MariaDB y MongoDB.</li>
+              <li>Se prepara solo si tu proyecto la necesita.</li>
+              <li>Queda conectada con tu aplicación.</li>
+            </ul>
+          </div>
+          <figure class="maqueta">
+            <div class="maqueta-visual" role="img" aria-label="Ejemplo: una aplicación conectada a una base de datos PostgreSQL; también se puede usar MySQL/MariaDB o MongoDB">
+              <div class="maqueta-barra"><span></span><span></span><span></span></div>
+              <div class="maqueta-cuerpo" aria-hidden="true">
+                <div class="bd-diagrama"><div class="nodo">Tu aplicación</div><span class="conector"></span><div class="nodo nodo-oscuro">PostgreSQL</div></div>
+                <p class="maqueta-o">También compatible con</p>
+                <div class="chips-fila"><span class="chip-det">MySQL/MariaDB</span><span class="chip-det">MongoDB</span></div>
+              </div>
+            </div>
+            <figcaption>Ejemplo ilustrativo</figcaption>
+          </figure>
+        </article>
+        <article class="bloque" id="traefik" data-inicio="2026-11-09" data-fin="2026-11-22">
+          <div class="bloque-texto">
+            <span class="bloque-icono"><img src="assets/icons/link.svg" alt=""></span>
+            <p class="bloque-meta"><span class="chip-fase">Fase 5</span><span class="estado-funcion"></span></p>
+            <h2>URLs locales (Traefik)</h2>
+            <p>Traefik asigna una dirección local a cada proyecto, para abrirlo desde cualquier equipo de tu red.</p>
+            <ul class="lista-beneficios">
+              <li>Una dirección propia para cada proyecto.</li>
+              <li>Fácil de recordar y de compartir en tu red.</li>
+              <li>Nunca se expone a Internet.</li>
+            </ul>
+          </div>
+          <figure class="maqueta">
+            <div class="maqueta-visual" role="img" aria-label="Ejemplo: Traefik dirige cada dirección local a su contenedor: tienda.acp.local, blog.acp.local y notas.acp.local">
+              <div class="maqueta-barra"><span></span><span></span><span></span></div>
+              <div class="maqueta-cuerpo" aria-hidden="true">
+                <div class="nodo nodo-oscuro">Traefik</div>
+                <ul class="rutas">
+                  <li><span class="url-mini">tienda.acp.local</span><span class="flecha">→</span><code>tienda-web</code></li>
+                  <li><span class="url-mini">blog.acp.local</span><span class="flecha">→</span><code>blog-personal</code></li>
+                  <li><span class="url-mini">notas.acp.local</span><span class="flecha">→</span><code>api-notas</code></li>
+                </ul>
+              </div>
+            </div>
+            <figcaption>Ejemplo ilustrativo</figcaption>
+          </figure>
+        </article>
+        <article class="bloque" id="logs" data-inicio="2026-11-23" data-fin="2026-12-06">
+          <div class="bloque-texto">
+            <span class="bloque-icono"><img src="assets/icons/scan-search.svg" alt=""></span>
+            <p class="bloque-meta"><span class="chip-fase">Fase 6</span><span class="estado-funcion"></span></p>
+            <h2>Logs y monitoreo</h2>
+            <p>Consulta los registros de cada proyecto y revisa si está en ejecución o detenido.</p>
+            <ul class="lista-beneficios">
+              <li>Registros de lo que pasa en cada proyecto.</li>
+              <li>Ve de un vistazo si está en ejecución o detenido.</li>
+              <li>Encuentra errores más rápido.</li>
+            </ul>
+          </div>
+          <figure class="maqueta">
+            <div class="maqueta-visual maqueta-oscura" role="img" aria-label="Ejemplo: registros de un proyecto en ejecución con la hora de cada visita">
+              <div class="maqueta-barra"><span></span><span></span><span></span></div>
+              <div class="maqueta-cuerpo terminal" aria-hidden="true">
+                <p class="terminal-ok">● tienda-web · En ejecución</p>
+                <p>10:42:01  GET /          200</p>
+                <p>10:42:03  GET /productos 200</p>
+                <p>10:42:07  POST /carrito  201</p>
+                <p>10:42:15  GET /ayuda     404</p>
+              </div>
+            </div>
+            <figcaption>Ejemplo ilustrativo</figcaption>
+          </figure>
+        </article>
+      </div>
+    </div>
+
+    <section id="cta" class="banda-oscura">
+      <h2>Publica tu primer proyecto</h2>
+      <a class="boton boton-primario" href="/login">Comenzar</a>
+    </section>
+  </main>
+
+  <footer id="pie">
+    <a class="logo" href="/">
+      <img src="assets/img/logo.png" alt="Logo de ApeByte">
+    </a>
+    <nav id="menu-pie" aria-label="Enlaces secundarios">
+      <ul>
+        <li><a class="enlace-pie" href="/privacidad">Aviso de privacidad</a></li>
+        <li><a class="enlace-pie" href="/terminos">Términos de uso</a></li>
+        <li><a class="enlace-pie" href="https://github.com/">Repositorio</a></li>
+        <li><a class="enlace-pie" href="/contacto">Contacto rápido</a></li>
+      </ul>
+    </nav>
+    <p class="derechos">© ACP · Proyecto de Desarrollo Web</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

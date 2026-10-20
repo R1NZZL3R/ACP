@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acerca de · ApeByte Cloud Platform (ACP)</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header id="encabezado">
+    <a class="logo" href="/">
+      <img src="assets/img/logo.png" alt="Logo de ApeByte">
+    </a>
+    <nav id="menu-principal" aria-label="Principal">
+      <ul>
+        <li><a class="enlace-menu" href="/caracteristicas">Características</a></li>
+        <li><a class="enlace-menu" href="/como-funciona">Cómo funciona</a></li>
+        <li><a class="enlace-menu" href="/tecnologias">Tecnologías</a></li>
+        <li><a class="enlace-menu" href="/documentacion">Documentación</a></li>
+        <li><a class="enlace-menu" href="/acerca-de" aria-current="page">Acerca de</a></li>
+        <li><a class="enlace-menu" href="/contacto">Contacto</a></li>
+        <li class="item-sesion"><a class="boton boton-primario" href="/login">Iniciar sesión</a></li>
+      </ul>
+    </nav>
+    <button id="btn-menu" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir menú">
+      <img src="assets/icons/menu.svg" alt="">
+    </button>
+  </header>
+
+  <main id="contenido">
+    <section id="que-es">
+      <h1>¿Qué es ACP?</h1>
+      <p>ApeByte Cloud Platform es una plataforma local para desplegar y alojar aplicaciones web: subes un proyecto, ACP detecta su tecnología, lo ejecuta en Docker y te da una URL local para abrirlo. Es un proyecto de la materia Desarrollo Web, pensado para una red local, sin exposición a Internet.</p>
+      <img class="ilustracion" src="assets/img/mascota.png" alt="Mascota de ApeByte">
+    </section>
+
+    <section id="datos" aria-label="ACP en cifras">
+      <ul class="cifras">
+        <li class="cifra"><strong>2</strong><span>personas en el equipo</span></li>
+        <li class="cifra"><strong>7</strong><span>fases de trabajo</span></li>
+        <li class="cifra"><strong>3</strong><span>bases de datos soportadas</span></li>
+        <li class="cifra"><strong>100 %</strong><span>en tu red local</span></li>
+      </ul>
+    </section>
+
+    <section id="objetivo">
+      <h2>Por qué existe ACP</h2>
+      <div class="cuadricula-2">
+        <article class="tarjeta">
+          <h3>El problema</h3>
+          <p>Publicar una aplicación web suele significar instalar dependencias, configurar un servidor y recordar puertos. Para quien está aprendiendo, es mucho trabajo antes de ver su proyecto funcionando.</p>
+        </article>
+        <article class="tarjeta">
+          <h3>La idea</h3>
+          <p>ACP automatiza ese camino: subes tu proyecto, ACP detecta con qué está hecho, lo ejecuta en un contenedor y te da una URL local para abrirlo.</p>
+        </article>
+        <article class="tarjeta">
+          <h3>Cómo trabajamos</h3>
+          <p>Con Scrum simplificado para un equipo de dos. Trabajamos en fases de dos semanas y cada una termina con algo que se puede probar.</p>
+        </article>
+        <article class="tarjeta">
+          <h3>Con qué lo construimos</h3>
+          <p>Python y Flask en el servidor, Docker para los contenedores, Traefik como proxy y HTML, CSS y JavaScript en la interfaz.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="equipo">
+      <h2>El equipo</h2>
+      <div class="equipo-grid">
+        <article class="tarjeta-persona">
+          <img class="foto" src="assets/img/foto_javier.png" alt="Foto de Javier Herrera">
+          <div>
+            <span class="rol">Backend</span>
+            <h3>Javier Herrera</h3>
+            <p>Se encarga del servidor y de que ACP reciba, detecte y despliegue los proyectos.</p>
+          </div>
+        </article>
+        <article class="tarjeta-persona">
+          <img class="foto" src="assets/img/foto_santiago.png" alt="Foto de Santiago Gonzalez">
+          <div>
+            <span class="rol">Frontend</span>
+            <h3>Santiago Gonzalez</h3>
+            <p>Diseña y programa la interfaz: lo que ves y usas en cada página de ACP.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="historia">
+      <h2>Cómo se construyó ACP</h2>
+      <p class="subtitulo">La historia del sistema, capítulo a capítulo.</p>
+      <ol class="historia">
+        <li class="capitulo" data-inicio="2026-09-14" data-fin="2026-09-27">
+          <div class="capitulo-cuerpo">
+            <p class="capitulo-meta"><span class="capitulo-fecha">14–27 sep</span><span class="capitulo-estado"></span></p>
+            <h3>Una idea y un plano</h3>
+            <p>Todo empezó en papel: decidimos cómo debía verse y funcionar ACP, creamos el repositorio y construimos la pantalla de inicio de sesión, la puerta de entrada a la plataforma.</p>
+          </div>
+        </li>
+        <li class="capitulo" data-inicio="2026-09-28" data-fin="2026-10-11">
+          <div class="capitulo-cuerpo">
+            <p class="capitulo-meta"><span class="capitulo-fecha">28 sep – 11 oct</span><span class="capitulo-estado"></span></p>
+            <h3>Aprender a recibir proyectos</h3>
+            <p>Llegaron el panel principal y la carga de proyectos. Por primera vez ACP podía recibir lo que alguien quería publicar, ya fuera un archivo ZIP o un repositorio Git.</p>
+          </div>
+        </li>
+        <li class="capitulo" data-inicio="2026-10-12" data-fin="2026-10-25">
+          <div class="capitulo-cuerpo">
+            <p class="capitulo-meta"><span class="capitulo-fecha">12 – 25 oct</span><span class="capitulo-estado"></span></p>
+            <h3>Aprender a reconocer</h3>
+            <p>ACP empieza a mirar dentro de cada proyecto y a deducir solo con qué está hecho, para que nadie tenga que explicárselo.</p>
+          </div>
+        </li>
+        <li class="capitulo" data-inicio="2026-10-26" data-fin="2026-11-08">
+          <div class="capitulo-cuerpo">
+            <p class="capitulo-meta"><span class="capitulo-fecha">26 oct – 8 nov</span><span class="capitulo-estado"></span></p>
+            <h3>Hacerlo correr</h3>
+            <p>Llega Docker. Cada proyecto se ejecuta en su propio contenedor y ACP logra su primer despliegue real.</p>
+          </div>
+        </li>
+        <li class="capitulo" data-inicio="2026-11-09" data-fin="2026-11-22">
+          <div class="capitulo-cuerpo">
+            <p class="capitulo-meta"><span class="capitulo-fecha">9 – 22 nov</span><span class="capitulo-estado"></span></p>
+            <h3>Darle datos y dirección</h3>
+            <p>Se suman las bases de datos y las URLs locales. Con Traefik, cada proyecto tiene una dirección fácil de recordar.</p>
+          </div>
+        </li>
+        <li class="capitulo" data-inicio="2026-11-23" data-fin="2026-12-06">
+          <div class="capitulo-cuerpo">
+            <p class="capitulo-meta"><span class="capitulo-fecha">23 nov – 6 dic</span><span class="capitulo-estado"></span></p>
+            <h3>Vigilar y proteger</h3>
+            <p>ACP aprende a contar lo que pasa: registros (logs), monitoreo y medidas de seguridad para que todo sea confiable.</p>
+          </div>
+        </li>
+        <li class="capitulo" data-inicio="2026-12-07" data-fin="2026-12-10">
+          <div class="capitulo-cuerpo">
+            <p class="capitulo-meta"><span class="capitulo-fecha">7 – 10 dic</span><span class="capitulo-estado"></span></p>
+            <h3>El último pulido</h3>
+            <p>Se afinan los detalles, se termina la documentación y se prepara la demostración final.</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <section id="cta" class="banda-oscura">
+      <h2>Pruébalo tú mismo</h2>
+      <a class="boton boton-primario" href="/login">Comenzar</a>
+    </section>
+  </main>
+
+  <footer id="pie">
+    <a class="logo" href="/">
+      <img src="assets/img/logo.png" alt="Logo de ApeByte">
+    </a>
+    <nav id="menu-pie" aria-label="Enlaces secundarios">
+      <ul>
+        <li><a class="enlace-pie" href="/privacidad">Aviso de privacidad</a></li>
+        <li><a class="enlace-pie" href="/terminos">Términos de uso</a></li>
+        <li><a class="enlace-pie" href="https://github.com/">Repositorio</a></li>
+        <li><a class="enlace-pie" href="/contacto">Contacto rápido</a></li>
+      </ul>
+    </nav>
+    <p class="derechos">© ACP · Proyecto de Desarrollo Web</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto · ApeByte Cloud Platform (ACP)</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header id="encabezado">
+    <a class="logo" href="/">
+      <img src="assets/img/logo.png" alt="Logo de ApeByte">
+    </a>
+    <nav id="menu-principal" aria-label="Principal">
+      <ul>
+        <li><a class="enlace-menu" href="/caracteristicas">Características</a></li>
+        <li><a class="enlace-menu" href="/como-funciona">Cómo funciona</a></li>
+        <li><a class="enlace-menu" href="/tecnologias">Tecnologías</a></li>
+        <li><a class="enlace-menu" href="/documentacion">Documentación</a></li>
+        <li><a class="enlace-menu" href="/acerca-de">Acerca de</a></li>
+        <li><a class="enlace-menu" href="/contacto" aria-current="page">Contacto</a></li>
+        <li class="item-sesion"><a class="boton boton-primario" href="/login">Iniciar sesión</a></li>
+      </ul>
+    </nav>
+    <button id="btn-menu" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir menú">
+      <img src="assets/icons/menu.svg" alt="">
+    </button>
+  </header>
+
+  <main id="contenido">
+    <h1>Contacto</h1>
+
+    <div class="dos-columnas">
+      <section id="datos">
+        <h2>Datos de contacto</h2>
+        <ul class="lista-datos">
+          <li class="dato">
+            <img class="icono" src="assets/icons/mail.svg" alt="">
+            <h3>Correo</h3>
+            <p>contacto@acp.local</p>
+          </li>
+          <li class="dato">
+            <img class="icono" src="assets/icons/map-pin.svg" alt="">
+            <h3>Ubicación</h3>
+            <p>Red local, sin exposición a Internet</p>
+          </li>
+          <li class="dato">
+            <img class="icono" src="assets/icons/git-branch.svg" alt="">
+            <h3>Repositorio</h3>
+            <p>Repositorio del proyecto en GitHub</p>
+          </li>
+        </ul>
+      </section>
+
+      <section id="formulario">
+        <h2>Enviar mensaje</h2>
+        <form id="form-contacto" novalidate>
+          <div class="campo">
+            <label for="campo-nombre">Nombre</label>
+            <input id="campo-nombre" name="nombre" type="text" placeholder="Tu nombre">
+            <p class="mensaje-error" hidden></p>
+          </div>
+          <div class="campo">
+            <label for="campo-correo">Correo</label>
+            <input id="campo-correo" name="correo" type="email" placeholder="correo@ejemplo.com">
+            <p class="mensaje-error" hidden></p>
+          </div>
+          <div class="campo">
+            <label for="campo-asunto">Asunto</label>
+            <input id="campo-asunto" name="asunto" type="text" placeholder="Asunto">
+            <p class="mensaje-error" hidden></p>
+          </div>
+          <div class="campo">
+            <label for="campo-mensaje">Mensaje</label>
+            <textarea id="campo-mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje"></textarea>
+            <p class="mensaje-error" hidden></p>
+          </div>
+          <button id="btn-enviar" class="boton boton-primario" type="submit" disabled>Enviar</button>
+        </form>
+        <p id="mensaje-exito" class="mensaje-exito" hidden>Mensaje enviado</p>
+      </section>
+    </div>
+  </main>
+
+  <footer id="pie">
+    <a class="logo" href="/">
+      <img src="assets/img/logo.png" alt="Logo de ApeByte">
+    </a>
+    <nav id="menu-pie" aria-label="Enlaces secundarios">
+      <ul>
+        <li><a class="enlace-pie" href="/privacidad">Aviso de privacidad</a></li>
+        <li><a class="enlace-pie" href="/terminos">Términos de uso</a></li>
+        <li><a class="enlace-pie" href="https://github.com/">Repositorio</a></li>
+        <li><a class="enlace-pie" href="/contacto">Contacto rápido</a></li>
+      </ul>
+    </nav>
+    <p class="derechos">© ACP · Proyecto de Desarrollo Web</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

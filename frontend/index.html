@@ -7,17 +7,153 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header>
-    <h1>ApeByte Cloud Platform</h1>
-    <button id="login-btn">Crear cuenta / Iniciar sesion</button>
+  <header id="encabezado">
+    <a class="logo" href="/">
+      <img src="assets/img/logo.png" alt="Logo de ApeByte">
+    </a>
+    <nav id="menu-principal" aria-label="Principal">
+      <ul>
+        <li><a class="enlace-menu" href="/caracteristicas">Características</a></li>
+        <li><a class="enlace-menu" href="/como-funciona">Cómo funciona</a></li>
+        <li><a class="enlace-menu" href="/tecnologias">Tecnologías</a></li>
+        <li><a class="enlace-menu" href="/documentacion">Documentación</a></li>
+        <li><a class="enlace-menu" href="/acerca-de">Acerca de</a></li>
+        <li><a class="enlace-menu" href="/contacto">Contacto</a></li>
+        <li class="item-sesion"><a class="boton boton-primario" href="/login">Iniciar sesión</a></li>
+      </ul>
+    </nav>
+    <button id="btn-menu" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir menú">
+      <img src="assets/icons/menu.svg" alt="">
+    </button>
   </header>
 
-  <main>
-    <section>
-      <h2>Que es ACP</h2>
-      <p>Plataforma local de despliegue y alojamiento de aplicaciones web.</p>
+  <main id="contenido">
+    <section id="hero">
+      <div class="hero-texto">
+        <h1>Despliega tus proyectos web en tu red local</h1>
+        <p>Sube un ZIP o un repo Git y ACP lo publica con URL local.</p>
+        <div class="hero-botones">
+          <a class="boton boton-primario" href="/login">Comenzar</a>
+          <a class="boton boton-secundario" href="/como-funciona">Ver cómo funciona</a>
+        </div>
+      </div>
+      <img class="ilustracion" src="assets/img/mascota.png" alt="Mascota de ApeByte">
+    </section>
+
+    <section id="funciones">
+      <h2>Qué hace ACP</h2>
+      <p class="subtitulo">Cuatro pasos para llevar tu proyecto a una URL local. Toca un paso para ver qué hace ACP en él.</p>
+
+      <div class="pasos" role="tablist" aria-label="Pasos de ACP">
+        <button class="paso" type="button" role="tab" id="paso-1" aria-controls="panel-1" aria-selected="true"><span class="paso-num">1</span><span class="paso-titulo">Subir</span></button>
+        <span class="paso-linea" role="presentation"></span>
+        <button class="paso" type="button" role="tab" id="paso-2" aria-controls="panel-2" aria-selected="false" tabindex="-1"><span class="paso-num">2</span><span class="paso-titulo">Detectar</span></button>
+        <span class="paso-linea" role="presentation"></span>
+        <button class="paso" type="button" role="tab" id="paso-3" aria-controls="panel-3" aria-selected="false" tabindex="-1"><span class="paso-num">3</span><span class="paso-titulo">Desplegar</span></button>
+        <span class="paso-linea" role="presentation"></span>
+        <button class="paso" type="button" role="tab" id="paso-4" aria-controls="panel-4" aria-selected="false" tabindex="-1"><span class="paso-num">4</span><span class="paso-titulo">Acceder</span></button>
+      </div>
+
+      <div class="paso-paneles">
+        <article class="tarjeta" role="tabpanel" id="panel-1" aria-labelledby="paso-1">
+          <img class="icono" src="assets/icons/upload.svg" alt="">
+          <h3>Carga ZIP/Git</h3>
+          <p>Sube tu proyecto como ZIP o desde un repositorio Git.</p>
+        </article>
+        <article class="tarjeta" role="tabpanel" id="panel-2" aria-labelledby="paso-2">
+          <img class="icono" src="assets/icons/scan-search.svg" alt="">
+          <h3>Detección automática</h3>
+          <p>ACP reconoce la tecnología de tu proyecto sin configurar nada.</p>
+        </article>
+        <article class="tarjeta" role="tabpanel" id="panel-3" aria-labelledby="paso-3">
+          <img class="icono" src="assets/icons/container.svg" alt="">
+          <h3>Despliegue con Docker</h3>
+          <p>Cada proyecto corre aislado en su propio contenedor.</p>
+        </article>
+        <article class="tarjeta" role="tabpanel" id="panel-4" aria-labelledby="paso-4">
+          <img class="icono" src="assets/icons/link.svg" alt="">
+          <h3>URLs locales</h3>
+          <p>Accede a tu aplicación con una dirección local fácil de recordar.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="tecnologias">
+      <h2>Tecnologías compatibles</h2>
+      <p class="subtitulo">Lo que ACP usa y soporta. Toca una para ver qué es y ir a su página oficial.</p>
+
+      <div class="tec-lista" role="tablist" aria-label="Tecnologías compatibles">
+        <button class="tec" type="button" role="tab" id="tec-1" aria-controls="tec-panel-1" aria-selected="true">PostgreSQL</button>
+        <button class="tec" type="button" role="tab" id="tec-2" aria-controls="tec-panel-2" aria-selected="false" tabindex="-1">MySQL/MariaDB</button>
+        <button class="tec" type="button" role="tab" id="tec-3" aria-controls="tec-panel-3" aria-selected="false" tabindex="-1">MongoDB</button>
+        <button class="tec" type="button" role="tab" id="tec-4" aria-controls="tec-panel-4" aria-selected="false" tabindex="-1">Docker</button>
+        <button class="tec" type="button" role="tab" id="tec-5" aria-controls="tec-panel-5" aria-selected="false" tabindex="-1">Traefik</button>
+      </div>
+
+      <div class="tec-paneles">
+        <article class="tec-panel" role="tabpanel" id="tec-panel-1" aria-labelledby="tec-1">
+          <div class="tec-texto">
+            <span class="tec-categoria">Base de datos</span>
+            <h3>PostgreSQL</h3>
+            <p>Base de datos relacional de código abierto, conocida por ser sólida y fiable con datos importantes.</p>
+          </div>
+          <div class="tec-enlaces"><a class="boton boton-secundario" href="https://www.postgresql.org/" target="_blank" rel="noopener noreferrer">Sitio oficial de PostgreSQL<span class="solo-lectores"> (se abre en una pestaña nueva)</span><span aria-hidden="true">&nbsp;↗</span></a></div>
+        </article>
+        <article class="tec-panel" role="tabpanel" id="tec-panel-2" aria-labelledby="tec-2">
+          <div class="tec-texto">
+            <span class="tec-categoria">Base de datos</span>
+            <h3>MySQL/MariaDB</h3>
+            <p>Dos bases de datos relacionales muy usadas y compatibles entre sí. Guardan la información en tablas.</p>
+          </div>
+          <div class="tec-enlaces"><a class="boton boton-secundario" href="https://www.mysql.com/" target="_blank" rel="noopener noreferrer">Sitio oficial de MySQL<span class="solo-lectores"> (se abre en una pestaña nueva)</span><span aria-hidden="true">&nbsp;↗</span></a><a class="boton boton-secundario" href="https://mariadb.org/" target="_blank" rel="noopener noreferrer">Sitio oficial de MariaDB<span class="solo-lectores"> (se abre en una pestaña nueva)</span><span aria-hidden="true">&nbsp;↗</span></a></div>
+        </article>
+        <article class="tec-panel" role="tabpanel" id="tec-panel-3" aria-labelledby="tec-3">
+          <div class="tec-texto">
+            <span class="tec-categoria">Base de datos</span>
+            <h3>MongoDB</h3>
+            <p>Base de datos que guarda la información como documentos parecidos a JSON, sin tablas fijas.</p>
+          </div>
+          <div class="tec-enlaces"><a class="boton boton-secundario" href="https://www.mongodb.com/" target="_blank" rel="noopener noreferrer">Sitio oficial de MongoDB<span class="solo-lectores"> (se abre en una pestaña nueva)</span><span aria-hidden="true">&nbsp;↗</span></a></div>
+        </article>
+        <article class="tec-panel" role="tabpanel" id="tec-panel-4" aria-labelledby="tec-4">
+          <div class="tec-texto">
+            <span class="tec-categoria">Contenedores</span>
+            <h3>Docker</h3>
+            <p>Empaqueta una aplicación con todo lo que necesita para que corra igual en cualquier equipo.</p>
+          </div>
+          <div class="tec-enlaces"><a class="boton boton-secundario" href="https://www.docker.com/" target="_blank" rel="noopener noreferrer">Sitio oficial de Docker<span class="solo-lectores"> (se abre en una pestaña nueva)</span><span aria-hidden="true">&nbsp;↗</span></a></div>
+        </article>
+        <article class="tec-panel" role="tabpanel" id="tec-panel-5" aria-labelledby="tec-5">
+          <div class="tec-texto">
+            <span class="tec-categoria">Reverse proxy</span>
+            <h3>Traefik</h3>
+            <p>Recibe cada visita y la envía al contenedor correcto. Así cada proyecto tiene su propia URL local.</p>
+          </div>
+          <div class="tec-enlaces"><a class="boton boton-secundario" href="https://traefik.io/traefik/" target="_blank" rel="noopener noreferrer">Sitio oficial de Traefik<span class="solo-lectores"> (se abre en una pestaña nueva)</span><span aria-hidden="true">&nbsp;↗</span></a></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="cta" class="banda-oscura">
+      <h2>Publica tu primer proyecto</h2>
+      <a class="boton boton-primario" href="/login">Comenzar</a>
     </section>
   </main>
+
+  <footer id="pie">
+    <a class="logo" href="/">
+      <img src="assets/img/logo.png" alt="Logo de ApeByte">
+    </a>
+    <nav id="menu-pie" aria-label="Enlaces secundarios">
+      <ul>
+        <li><a class="enlace-pie" href="/privacidad">Aviso de privacidad</a></li>
+        <li><a class="enlace-pie" href="/terminos">Términos de uso</a></li>
+        <li><a class="enlace-pie" href="https://github.com/">Repositorio</a></li>
+        <li><a class="enlace-pie" href="/contacto">Contacto rápido</a></li>
+      </ul>
+    </nav>
+    <p class="derechos">© ACP · Proyecto de Desarrollo Web</p>
+  </footer>
 
   <script src="js/main.js"></script>
 </body>

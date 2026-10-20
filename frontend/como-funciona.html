@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cómo funciona · ApeByte Cloud Platform (ACP)</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header id="encabezado">
+    <a class="logo" href="/">
+      <img src="assets/img/logo.png" alt="Logo de ApeByte">
+    </a>
+    <nav id="menu-principal" aria-label="Principal">
+      <ul>
+        <li><a class="enlace-menu" href="/caracteristicas">Características</a></li>
+        <li><a class="enlace-menu" href="/como-funciona" aria-current="page">Cómo funciona</a></li>
+        <li><a class="enlace-menu" href="/tecnologias">Tecnologías</a></li>
+        <li><a class="enlace-menu" href="/documentacion">Documentación</a></li>
+        <li><a class="enlace-menu" href="/acerca-de">Acerca de</a></li>
+        <li><a class="enlace-menu" href="/contacto">Contacto</a></li>
+        <li class="item-sesion"><a class="boton boton-primario" href="/login">Iniciar sesión</a></li>
+      </ul>
+    </nav>
+    <button id="btn-menu" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir menú">
+      <img src="assets/icons/menu.svg" alt="">
+    </button>
+  </header>
+
+  <main id="contenido">
+    <section id="intro">
+      <h1>Cómo funciona</h1>
+      <p>Cuatro pasos separan tu proyecto de una URL local lista para usar. Tú subes el proyecto; ACP se encarga de todo lo demás.</p>
+      <nav class="atajos" aria-label="Ir a un paso">
+        <a href="#subir">1 · Subir</a>
+        <a href="#detectar">2 · Detectar</a>
+        <a href="#desplegar">3 · Desplegar</a>
+        <a href="#acceder">4 · Acceder</a>
+      </nav>
+    </section>
+
+    <ol id="pasos" class="stepper">
+      <li class="paso" id="subir">
+        <article class="tarjeta-paso">
+          <div class="paso-texto">
+            <img class="icono" src="assets/icons/upload.svg" alt="">
+            <p class="paso-etiqueta">Paso 1</p>
+            <h2>Subir proyecto</h2>
+            <p class="paso-lead">Carga tu proyecto como ZIP o con la dirección de un repositorio Git.</p>
+            <dl class="reparto">
+              <div><dt>Tú</dt><dd>Eliges el ZIP o pegas la dirección del repositorio.</dd></div>
+              <div><dt>ACP</dt><dd>Guarda una copia de tu proyecto y la deja lista para analizar.</dd></div>
+            </dl>
+            <h3 class="por-dentro">Qué pasa por dentro</h3>
+            <ul class="lista-dentro">
+            <li>Si es un ZIP, ACP lo descomprime en una carpeta propia del proyecto.</li>
+            <li>Si es un repositorio Git, ACP descarga (clona) su contenido.</li>
+            <li>Cada proyecto queda separado de los demás.</li>
+            </ul>
+          </div>
+          <figure class="maqueta">
+            <div class="maqueta-visual" role="img" aria-label="Ejemplo: un archivo mi-proyecto.zip listo para subir y un campo con la dirección de un repositorio Git">
+              <div class="maqueta-barra"><span></span><span></span><span></span></div>
+              <div class="maqueta-cuerpo" aria-hidden="true">
+                <div class="zona-zip"><img src="assets/icons/upload.svg" alt=""><strong>mi-proyecto.zip</strong><small>Listo para subir</small></div>
+                <p class="maqueta-o">o</p>
+                <div class="campo-falso"><img src="assets/icons/git-branch.svg" alt="">github.com/usuario/mi-proyecto.git</div>
+              </div>
+            </div>
+            <figcaption>Ejemplo ilustrativo</figcaption>
+          </figure>
+        </article>
+      </li>
+      <li class="paso" id="detectar">
+        <article class="tarjeta-paso">
+          <div class="paso-texto">
+            <img class="icono" src="assets/icons/scan-search.svg" alt="">
+            <p class="paso-etiqueta">Paso 2</p>
+            <h2>Detectar tecnología</h2>
+            <p class="paso-lead">ACP analiza los archivos y reconoce qué tecnología usa tu proyecto.</p>
+            <dl class="reparto">
+              <div><dt>Tú</dt><dd>No haces nada: no hay que escribir ni configurar nada.</dd></div>
+              <div><dt>ACP</dt><dd>Lee los archivos clave y deduce con qué está hecho tu proyecto.</dd></div>
+            </dl>
+            <h3 class="por-dentro">Qué pasa por dentro</h3>
+            <ul class="lista-dentro">
+            <li>Busca archivos reveladores: <code>requirements.txt</code> o <code>app.py</code> (Python), <code>package.json</code> (Node.js), <code>index.html</code> (sitio estático).</li>
+            <li>Con eso decide qué necesita tu proyecto para poder ejecutarse.</li>
+            <li>El resultado es la receta que se usa en el siguiente paso.</li>
+            </ul>
+          </div>
+          <figure class="maqueta">
+            <div class="maqueta-visual" role="img" aria-label="Ejemplo: ACP lee app.py y requirements.txt y detecta Python con Flask">
+              <div class="maqueta-barra"><span></span><span></span><span></span></div>
+              <div class="maqueta-cuerpo" aria-hidden="true">
+                <div class="archivo"><code>app.py</code><span class="chip-det">Python</span></div>
+                <div class="archivo"><code>requirements.txt</code><span class="chip-det">Flask</span></div>
+                <div class="archivo"><code>templates/</code><span class="chip-det chip-gris">HTML</span></div>
+                <div class="resultado-det"><img src="assets/icons/scan-search.svg" alt="">Detectado: Python + Flask</div>
+              </div>
+            </div>
+            <figcaption>Ejemplo ilustrativo</figcaption>
+          </figure>
+        </article>
+      </li>
+      <li class="paso" id="desplegar">
+        <article class="tarjeta-paso">
+          <div class="paso-texto">
+            <img class="icono" src="assets/icons/container.svg" alt="">
+            <p class="paso-etiqueta">Paso 3</p>
+            <h2>Desplegar</h2>
+            <p class="paso-lead">El proyecto se construye y se ejecuta en un contenedor Docker.</p>
+            <dl class="reparto">
+              <div><dt>Tú</dt><dd>Esperas unos momentos mientras se prepara todo.</dd></div>
+              <div><dt>ACP</dt><dd>Construye una imagen Docker y arranca un contenedor con tu proyecto.</dd></div>
+            </dl>
+            <h3 class="por-dentro">Qué pasa por dentro</h3>
+            <ul class="lista-dentro">
+            <li>La imagen es como una caja que lleva tu aplicación y todo lo que necesita.</li>
+            <li>Cada proyecto corre aislado: si uno falla, los demás siguen funcionando.</li>
+            <li>Si tu aplicación usa PostgreSQL, MySQL/MariaDB o MongoDB, ACP puede darle su base de datos.</li>
+            </ul>
+          </div>
+          <figure class="maqueta">
+            <div class="maqueta-visual maqueta-oscura" role="img" aria-label="Ejemplo: registro de la construcción de la imagen Docker y del contenedor en ejecución">
+              <div class="maqueta-barra"><span></span><span></span><span></span></div>
+              <div class="maqueta-cuerpo terminal" aria-hidden="true">
+                <p>&gt; Construyendo imagen…</p>
+                <p>&gt; Imagen lista</p>
+                <p>&gt; Iniciando contenedor…</p>
+                <p class="terminal-ok">&gt; En ejecución</p>
+              </div>
+            </div>
+            <figcaption>Ejemplo ilustrativo</figcaption>
+          </figure>
+        </article>
+      </li>
+      <li class="paso" id="acceder">
+        <article class="tarjeta-paso">
+          <div class="paso-texto">
+            <img class="icono" src="assets/icons/link.svg" alt="">
+            <p class="paso-etiqueta">Paso 4</p>
+            <h2>Acceder por URL</h2>
+            <p class="paso-lead">Abre tu aplicación con su propia dirección local.</p>
+            <dl class="reparto">
+              <div><dt>Tú</dt><dd>Abres la dirección en tu navegador.</dd></div>
+              <div><dt>ACP</dt><dd>Traefik recibe la visita y la envía al contenedor correcto.</dd></div>
+            </dl>
+            <h3 class="por-dentro">Qué pasa por dentro</h3>
+            <ul class="lista-dentro">
+            <li>Cada proyecto tiene su propia dirección local, fácil de recordar.</li>
+            <li>Solo se abre desde tu red local, nunca desde Internet.</li>
+            <li>Mientras el proyecto esté en ejecución, puedes volver a esa dirección cuando quieras.</li>
+            </ul>
+          </div>
+          <figure class="maqueta">
+            <div class="maqueta-visual" role="img" aria-label="Ejemplo: un navegador abierto en la dirección local mi-proyecto.acp.local mostrando la aplicación en ejecución">
+              <div class="maqueta-barra"><span></span><span></span><span></span></div>
+              <div class="maqueta-cuerpo" aria-hidden="true">
+                <div class="url-falsa"><img src="assets/icons/link.svg" alt="">mi-proyecto.acp.local</div>
+                <div class="app-falsa"><span></span><span></span><span></span></div>
+                <span class="chip-det">En ejecución</span>
+              </div>
+            </div>
+            <figcaption>Ejemplo ilustrativo</figcaption>
+          </figure>
+        </article>
+      </li>
+    </ol>
+
+    <section id="requisitos">
+      <h2>Antes de empezar</h2>
+      <div class="cuadricula-3">
+        <article class="tarjeta">
+          <h3>Qué necesitas</h3>
+          <p>Tu proyecto en un archivo ZIP o en un repositorio Git, y un navegador conectado a la misma red local que ACP.</p>
+        </article>
+        <article class="tarjeta">
+          <h3>Qué obtienes</h3>
+          <p>Tu aplicación funcionando en su propio contenedor y una dirección local para abrirla, sin instalar ni configurar nada.</p>
+        </article>
+        <article class="tarjeta">
+          <h3>Qué no hace</h3>
+          <p>ACP no publica tus proyectos en Internet. Todo se queda dentro de tu red local.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="cta" class="banda-oscura">
+      <h2>Publica tu primer proyecto</h2>
+      <a class="boton boton-primario" href="/login">Comenzar</a>
+    </section>
+  </main>
+
+  <footer id="pie">
+    <a class="logo" href="/">
+      <img src="assets/img/logo.png" alt="Logo de ApeByte">
+    </a>
+    <nav id="menu-pie" aria-label="Enlaces secundarios">
+      <ul>
+        <li><a class="enlace-pie" href="/privacidad">Aviso de privacidad</a></li>
+        <li><a class="enlace-pie" href="/terminos">Términos de uso</a></li>
+        <li><a class="enlace-pie" href="https://github.com/">Repositorio</a></li>
+        <li><a class="enlace-pie" href="/contacto">Contacto rápido</a></li>
+      </ul>
+    </nav>
+    <p class="derechos">© ACP · Proyecto de Desarrollo Web</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,954 @@
+[
+ {
+  "cat": "Variables :root",
+  "crit": "--color-primario",
+  "exp": "#1A6FF0",
+  "found": "#1A6FF0",
+  "status": "cumple"
+ },
+ {
+  "cat": "Variables :root",
+  "crit": "--color-primario-hover",
+  "exp": "#1558C4",
+  "found": "#1558C4",
+  "status": "cumple"
+ },
+ {
+  "cat": "Variables :root",
+  "crit": "--color-primario-suave",
+  "exp": "#E8F0FE",
+  "found": "#E8F0FE",
+  "status": "cumple"
+ },
+ {
+  "cat": "Variables :root",
+  "crit": "--color-oscuro",
+  "exp": "#0B1530",
+  "found": "#0B1530",
+  "status": "cumple"
+ },
+ {
+  "cat": "Variables :root",
+  "crit": "--color-texto",
+  "exp": "#1B2233",
+  "found": "#1B2233",
+  "status": "cumple"
+ },
+ {
+  "cat": "Variables :root",
+  "crit": "--color-texto-suave",
+  "exp": "#5F6778",
+  "found": "#5F6778",
+  "status": "cumple"
+ },
+ {
+  "cat": "Variables :root",
+  "crit": "--color-fondo",
+  "exp": "#FFFFFF",
+  "found": "#FFFFFF",
+  "status": "cumple"
+ },
+ {
+  "cat": "Variables :root",
+  "crit": "--color-fondo-alterno",
+  "exp": "#F3F5F9",
+  "found": "#F3F5F9",
+  "status": "cumple"
+ },
+ {
+  "cat": "Variables :root",
+  "crit": "--color-borde",
+  "exp": "#D5DAE3",
+  "found": "#D5DAE3",
+  "status": "cumple"
+ },
+ {
+  "cat": "Variables :root",
+  "crit": "--color-exito",
+  "exp": "#1A7F4F",
+  "found": "#1A7F4F",
+  "status": "cumple"
+ },
+ {
+  "cat": "Variables :root",
+  "crit": "--color-error",
+  "exp": "#C93535",
+  "found": "#C93535",
+  "status": "cumple"
+ },
+ {
+  "cat": "Variables :root",
+  "crit": "--color-advertencia",
+  "exp": "#9A5B00",
+  "found": "#9A5B00",
+  "status": "cumple"
+ },
+ {
+  "cat": "Variables :root",
+  "crit": "--texto-h1",
+  "exp": "44px",
+  "found": "44px",
+  "status": "cumple"
+ },
+ {
+  "cat": "Variables :root",
+  "crit": "--texto-h2",
+  "exp": "32px",
+  "found": "32px",
+  "status": "cumple"
+ },
+ {
+  "cat": "Variables :root",
+  "crit": "--texto-h3",
+  "exp": "22px",
+  "found": "22px",
+  "status": "cumple"
+ },
+ {
+  "cat": "Variables :root",
+  "crit": "--texto-l",
+  "exp": "20px",
+  "found": "20px",
+  "status": "cumple"
+ },
+ {
+  "cat": "Variables :root",
+  "crit": "--texto-base",
+  "exp": "16px",
+  "found": "16px",
+  "status": "cumple"
+ },
+ {
+  "cat": "Variables :root",
+  "crit": "--texto-s",
+  "exp": "14px",
+  "found": "14px",
+  "status": "cumple"
+ },
+ {
+  "cat": "Variables :root",
+  "crit": "--espacio-xs",
+  "exp": "4px",
+  "found": "4px",
+  "status": "cumple"
+ },
+ {
+  "cat": "Variables :root",
+  "crit": "--espacio-s",
+  "exp": "8px",
+  "found": "8px",
+  "status": "cumple"
+ },
+ {
+  "cat": "Variables :root",
+  "crit": "--espacio-m",
+  "exp": "16px",
+  "found": "16px",
+  "status": "cumple"
+ },
+ {
+  "cat": "Variables :root",
+  "crit": "--espacio-l",
+  "exp": "24px",
+  "found": "24px",
+  "status": "cumple"
+ },
+ {
+  "cat": "Variables :root",
+  "crit": "--espacio-xl",
+  "exp": "32px",
+  "found": "32px",
+  "status": "cumple"
+ },
+ {
+  "cat": "Variables :root",
+  "crit": "--espacio-2xl",
+  "exp": "48px",
+  "found": "48px",
+  "status": "cumple"
+ },
+ {
+  "cat": "Variables :root",
+  "crit": "--espacio-3xl",
+  "exp": "64px",
+  "found": "64px",
+  "status": "cumple"
+ },
+ {
+  "cat": "Variables :root",
+  "crit": "--ancho-contenido",
+  "exp": "1100px",
+  "found": "1100px",
+  "status": "cumple"
+ },
+ {
+  "cat": "Variables :root",
+  "crit": "--radio-m",
+  "exp": "8px",
+  "found": "8px",
+  "status": "cumple"
+ },
+ {
+  "cat": "Variables :root",
+  "crit": "--radio-l",
+  "exp": "12px",
+  "found": "12px",
+  "status": "cumple"
+ },
+ {
+  "cat": "Variables :root",
+  "crit": "--boton-padding",
+  "exp": "12px 24px",
+  "found": "12px 24px",
+  "status": "cumple"
+ },
+ {
+  "cat": "Variables :root",
+  "crit": "--boton-alto-min",
+  "exp": "44px",
+  "found": "44px",
+  "status": "cumple"
+ },
+ {
+  "cat": "Variables :root",
+  "crit": "--icono-s",
+  "exp": "16px",
+  "found": "16px",
+  "status": "cumple"
+ },
+ {
+  "cat": "Variables :root",
+  "crit": "--icono-m",
+  "exp": "24px",
+  "found": "24px",
+  "status": "cumple"
+ },
+ {
+  "cat": "Variables :root",
+  "crit": "--icono-l",
+  "exp": "32px",
+  "found": "32px",
+  "status": "cumple"
+ },
+ {
+  "cat": "Variables :root",
+  "crit": "--fuente-titulos",
+  "exp": "\"Barlow\", Arial, sans-serif",
+  "found": "\"Barlow\", Arial, sans-serif",
+  "status": "cumple"
+ },
+ {
+  "cat": "Variables :root",
+  "crit": "--fuente-cuerpo",
+  "exp": "\"Barlow\", Arial, sans-serif",
+  "found": "\"Barlow\", Arial, sans-serif",
+  "status": "cumple"
+ },
+ {
+  "cat": "Variables :root",
+  "crit": "--fuente-codigo",
+  "exp": "\"Cascadia Mono\", Consolas, \"Courier New\", monospace",
+  "found": "\"Cascadia Mono\", Consolas, \"Courier New\", monospace",
+  "status": "cumple"
+ },
+ {
+  "cat": "Tipografía",
+  "crit": "Familia del cuerpo",
+  "exp": "\"Barlow\", Arial, sans-serif",
+  "found": "Barlow, Arial, sans-serif",
+  "status": "cumple"
+ },
+ {
+  "cat": "Tipografía",
+  "crit": "Archivo local Barlow 400 cargado",
+  "exp": "loaded",
+  "found": "error",
+  "status": "no cumple"
+ },
+ {
+  "cat": "Tipografía",
+  "crit": "Archivo local Barlow 500 cargado",
+  "exp": "loaded",
+  "found": "error",
+  "status": "no cumple"
+ },
+ {
+  "cat": "Tipografía",
+  "crit": "Archivo local Barlow 700 cargado",
+  "exp": "loaded",
+  "found": "error",
+  "status": "no cumple"
+ },
+ {
+  "cat": "Tipografía",
+  "crit": "Texto base (body)",
+  "exp": "16px",
+  "found": "16px",
+  "status": "cumple"
+ },
+ {
+  "cat": "Tipografía",
+  "crit": "Interlineado de párrafos",
+  "exp": "24px",
+  "found": "24px",
+  "status": "cumple"
+ },
+ {
+  "cat": "Tipografía",
+  "crit": "Color de texto",
+  "exp": "rgb(27, 34, 51)",
+  "found": "rgb(27, 34, 51)",
+  "status": "cumple"
+ },
+ {
+  "cat": "Colores",
+  "crit": "Fondo general",
+  "exp": "rgb(255, 255, 255)",
+  "found": "rgb(255, 255, 255)",
+  "status": "cumple"
+ },
+ {
+  "cat": "Tipografía",
+  "crit": "H1 tamaño (escritorio)",
+  "exp": "44px",
+  "found": "44px",
+  "status": "cumple"
+ },
+ {
+  "cat": "Tipografía",
+  "crit": "H1 peso",
+  "exp": "700",
+  "found": "700",
+  "status": "cumple"
+ },
+ {
+  "cat": "Tipografía",
+  "crit": "H2 tamaño (escritorio)",
+  "exp": "32px",
+  "found": "32px",
+  "status": "cumple"
+ },
+ {
+  "cat": "Tipografía",
+  "crit": "H2 peso",
+  "exp": "700",
+  "found": "700",
+  "status": "cumple"
+ },
+ {
+  "cat": "Tipografía",
+  "crit": "H3 tamaño (escritorio)",
+  "exp": "22px",
+  "found": "22px",
+  "status": "cumple"
+ },
+ {
+  "cat": "Tipografía",
+  "crit": "H3 peso",
+  "exp": "700",
+  "found": "700",
+  "status": "cumple"
+ },
+ {
+  "cat": "Tipografía",
+  "crit": "Interlineado de títulos (H1 = 1,2 × 44)",
+  "exp": "52.8px",
+  "found": "52.8px",
+  "status": "cumple"
+ },
+ {
+  "cat": "Tipografía",
+  "crit": "Hero: subtítulo (texto grande)",
+  "exp": "20px",
+  "found": "20px",
+  "status": "cumple"
+ },
+ {
+  "cat": "Botones",
+  "crit": "Primario: fondo",
+  "exp": "rgb(26, 111, 240)",
+  "found": "rgb(26, 111, 240)",
+  "status": "cumple"
+ },
+ {
+  "cat": "Botones",
+  "crit": "Primario: texto",
+  "exp": "rgb(255, 255, 255)",
+  "found": "rgb(255, 255, 255)",
+  "status": "cumple"
+ },
+ {
+  "cat": "Botones",
+  "crit": "Padding",
+  "exp": "12px 24px",
+  "found": "12px 24px",
+  "status": "cumple"
+ },
+ {
+  "cat": "Botones",
+  "crit": "Esquinas",
+  "exp": "8px",
+  "found": "8px",
+  "status": "cumple"
+ },
+ {
+  "cat": "Botones",
+  "crit": "Tamaño de texto",
+  "exp": "16px",
+  "found": "16px",
+  "status": "cumple"
+ },
+ {
+  "cat": "Botones",
+  "crit": "Peso del texto",
+  "exp": "700",
+  "found": "700",
+  "status": "cumple"
+ },
+ {
+  "cat": "Botones",
+  "crit": "Altura mínima",
+  "exp": "44px",
+  "found": "44px",
+  "status": "cumple"
+ },
+ {
+  "cat": "Botones",
+  "crit": "Transición (150 ms)",
+  "exp": "0.15s",
+  "found": "0.15s",
+  "status": "cumple"
+ },
+ {
+  "cat": "Botones",
+  "crit": "Secundario: fondo transparente",
+  "exp": "rgba(0, 0, 0, 0)",
+  "found": "rgba(0, 0, 0, 0)",
+  "status": "cumple"
+ },
+ {
+  "cat": "Botones",
+  "crit": "Secundario: borde 2 px",
+  "exp": "2px",
+  "found": "2px",
+  "status": "cumple"
+ },
+ {
+  "cat": "Botones",
+  "crit": "Secundario: color de borde",
+  "exp": "rgb(26, 111, 240)",
+  "found": "rgb(26, 111, 240)",
+  "status": "cumple"
+ },
+ {
+  "cat": "Botones",
+  "crit": "Secundario: color de texto",
+  "exp": "rgb(26, 111, 240)",
+  "found": "rgb(26, 111, 240)",
+  "status": "cumple"
+ },
+ {
+  "cat": "Botones",
+  "crit": "Primario hover: fondo",
+  "exp": "rgb(21, 88, 196)",
+  "found": "rgb(21, 88, 196)",
+  "status": "cumple"
+ },
+ {
+  "cat": "Botones",
+  "crit": "Secundario hover: fondo",
+  "exp": "rgb(232, 240, 254)",
+  "found": "rgb(232, 240, 254)",
+  "status": "cumple"
+ },
+ {
+  "cat": "Botones",
+  "crit": "Secundario hover: texto",
+  "exp": "rgb(21, 88, 196)",
+  "found": "rgb(21, 88, 196)",
+  "status": "cumple"
+ },
+ {
+  "cat": "Botones",
+  "crit": "Foco por teclado: contorno 3 px #1A6FF0, separación 2 px",
+  "exp": "3px solid rgb(26, 111, 240) offset 2px",
+  "found": "3px solid rgb(26, 111, 240) offset 2px",
+  "status": "cumple"
+ },
+ {
+  "cat": "Espaciados",
+  "crit": "Padding vertical de sección (64 px)",
+  "exp": "64px",
+  "found": "64px",
+  "status": "cumple"
+ },
+ {
+  "cat": "Espaciados",
+  "crit": "Ancho máximo del contenido (1100 px)",
+  "exp": "1100px",
+  "found": "1100px",
+  "status": "cumple"
+ },
+ {
+  "cat": "Espaciados",
+  "crit": "Título de sección → contenido (32 px)",
+  "exp": "32px",
+  "found": "32px",
+  "status": "cumple"
+ },
+ {
+  "cat": "Espaciados",
+  "crit": "Padding interno de tarjeta (24 px)",
+  "exp": "24px",
+  "found": "24px",
+  "status": "cumple"
+ },
+ {
+  "cat": "Espaciados",
+  "crit": "Separación entre tarjetas (24 px)",
+  "exp": "24px",
+  "found": "24px",
+  "status": "cumple"
+ },
+ {
+  "cat": "Espaciados",
+  "crit": "Esquinas de tarjeta (12 px)",
+  "exp": "12px",
+  "found": "12px",
+  "status": "cumple"
+ },
+ {
+  "cat": "Colores",
+  "crit": "Tarjeta: borde",
+  "exp": "rgb(213, 218, 227)",
+  "found": "rgb(213, 218, 227)",
+  "status": "cumple"
+ },
+ {
+  "cat": "Colores",
+  "crit": "Sección alterna: fondo",
+  "exp": "rgb(243, 245, 249)",
+  "found": "rgb(243, 245, 249)",
+  "status": "cumple"
+ },
+ {
+  "cat": "Colores",
+  "crit": "Banda de cierre (CTA): fondo",
+  "exp": "rgb(11, 21, 48)",
+  "found": "rgb(11, 21, 48)",
+  "status": "cumple"
+ },
+ {
+  "cat": "Colores",
+  "crit": "Pie de página: fondo",
+  "exp": "rgb(11, 21, 48)",
+  "found": "rgb(11, 21, 48)",
+  "status": "cumple"
+ },
+ {
+  "cat": "Colores",
+  "crit": "Etiqueta: fondo",
+  "exp": "rgb(232, 240, 254)",
+  "found": "rgb(232, 240, 254)",
+  "status": "cumple"
+ },
+ {
+  "cat": "Íconos",
+  "crit": "Tamaño de ícono en tarjetas (32 px)",
+  "exp": "32px",
+  "found": "32px",
+  "status": "cumple"
+ },
+ {
+  "cat": "Íconos",
+  "crit": "Ícono de menú móvil (24 px)",
+  "exp": "24px",
+  "found": "24px",
+  "status": "cumple"
+ },
+ {
+  "cat": "Estructura HTML",
+  "crit": "Encabezado",
+  "exp": "1 × header#encabezado",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "cat": "Estructura HTML",
+  "crit": "Logo del encabezado",
+  "exp": "1 × header#encabezado > a.logo[href=\"/\"] > img[alt=\"Logo de ApeByte\"]",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "cat": "Estructura HTML",
+  "crit": "Menú principal",
+  "exp": "1 × header > nav#menu-principal[aria-label=\"Principal\"]",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "cat": "Estructura HTML",
+  "crit": "Enlaces del menú ×6",
+  "exp": "6 × nav#menu-principal ul > li > a.enlace-menu",
+  "found": "6",
+  "status": "cumple"
+ },
+ {
+  "cat": "Estructura HTML",
+  "crit": "Botón Iniciar sesión (enlace a /login)",
+  "exp": "1 × nav#menu-principal li.item-sesion > a.boton.boton-primario[href=\"/login\"]",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "cat": "Estructura HTML",
+  "crit": "Botón de menú móvil",
+  "exp": "1 × header > button#btn-menu",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "cat": "Estructura HTML",
+  "crit": "Contenido principal",
+  "exp": "1 × body > main#contenido",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "cat": "Estructura HTML",
+  "crit": "Pie de página",
+  "exp": "1 × body > footer#pie",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "cat": "Estructura HTML",
+  "crit": "Logo del pie",
+  "exp": "1 × footer#pie > a.logo > img[alt=\"Logo de ApeByte\"]",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "cat": "Estructura HTML",
+  "crit": "Menú del pie",
+  "exp": "1 × footer#pie > nav#menu-pie[aria-label=\"Enlaces secundarios\"]",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "cat": "Estructura HTML",
+  "crit": "Enlaces del pie ×4",
+  "exp": "4 × nav#menu-pie ul > li > a.enlace-pie",
+  "found": "4",
+  "status": "cumple"
+ },
+ {
+  "cat": "Estructura HTML",
+  "crit": "Derechos",
+  "exp": "1 × footer#pie > p.derechos",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "cat": "Estructura HTML",
+  "crit": "Un solo h1 por página, dentro de main",
+  "exp": "1 × main#contenido h1",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "cat": "Estructura HTML",
+  "crit": "h1 total en la página",
+  "exp": "1",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "cat": "Estructura HTML",
+  "crit": "Sin id login-btn (debe desaparecer)",
+  "exp": "0",
+  "found": "0",
+  "status": "cumple"
+ },
+ {
+  "cat": "Estructura HTML",
+  "crit": "Hero",
+  "exp": "1 × main#contenido > section#hero",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "cat": "Estructura HTML",
+  "crit": "Hero: botón primario",
+  "exp": "1 × #hero a.boton.boton-primario[href=\"/login\"]",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "cat": "Estructura HTML",
+  "crit": "Hero: botón secundario",
+  "exp": "1 × #hero a.boton.boton-secundario[href=\"/como-funciona\"]",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "cat": "Estructura HTML",
+  "crit": "Hero: ilustración con alt",
+  "exp": "1 × #hero img.ilustracion[alt=\"Mascota de ApeByte\"]",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "cat": "Estructura HTML",
+  "crit": "Sección funciones",
+  "exp": "1 × main > section#funciones",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "cat": "Estructura HTML",
+  "crit": "Funciones: h2",
+  "exp": "1 × #funciones > h2",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "cat": "Estructura HTML",
+  "crit": "Funciones: tarjetas ×4",
+  "exp": "4 × #funciones article.tarjeta",
+  "found": "4",
+  "status": "cumple"
+ },
+ {
+  "cat": "Estructura HTML",
+  "crit": "Tarjetas con img.icono ×4",
+  "exp": "4 × #funciones article.tarjeta > img.icono",
+  "found": "4",
+  "status": "cumple"
+ },
+ {
+  "cat": "Estructura HTML",
+  "crit": "Tarjetas con h3 ×4",
+  "exp": "4 × #funciones article.tarjeta > h3",
+  "found": "4",
+  "status": "cumple"
+ },
+ {
+  "cat": "Estructura HTML",
+  "crit": "Tarjetas con p ×4",
+  "exp": "4 × #funciones article.tarjeta > p",
+  "found": "4",
+  "status": "cumple"
+ },
+ {
+  "cat": "Estructura HTML",
+  "crit": "Sección pasos",
+  "exp": "1 × main > section#pasos",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "cat": "Estructura HTML",
+  "crit": "Pasos: ol.pasos",
+  "exp": "1 × #pasos > ol.pasos",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "cat": "Estructura HTML",
+  "crit": "Pasos: li.paso con enlace a /como-funciona ×4",
+  "exp": "4 × #pasos ol.pasos > li.paso > a[href=\"/como-funciona\"]",
+  "found": "4",
+  "status": "cumple"
+ },
+ {
+  "cat": "Estructura HTML",
+  "crit": "Sección tecnologías",
+  "exp": "1 × main > section#tecnologias",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "cat": "Estructura HTML",
+  "crit": "Etiquetas ×5",
+  "exp": "5 × #tecnologias ul.etiquetas > li.etiqueta",
+  "found": "5",
+  "status": "cumple"
+ },
+ {
+  "cat": "Estructura HTML",
+  "crit": "Sección CTA (banda oscura)",
+  "exp": "1 × main > section#cta.banda-oscura",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "cat": "Estructura HTML",
+  "crit": "CTA: h2",
+  "exp": "1 × #cta > h2",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "cat": "Estructura HTML",
+  "crit": "CTA: botón primario",
+  "exp": "1 × #cta > a.boton.boton-primario",
+  "found": "1",
+  "status": "cumple"
+ },
+ {
+  "cat": "Estructura HTML",
+  "crit": "Etiquetas semánticas section en Home (hero, funciones, pasos, tecnologias, cta) ×5",
+  "exp": "5 × main#contenido > section",
+  "found": "5",
+  "status": "cumple"
+ },
+ {
+  "cat": "Estructura HTML",
+  "crit": "Menús con nav (principal + pie) ×2",
+  "exp": "2 × nav",
+  "found": "2",
+  "status": "cumple"
+ },
+ {
+  "cat": "Estructura HTML",
+  "crit": "Sin aria-current en Home (ítem activo no aplica) ×0",
+  "exp": "0 × a[aria-current]",
+  "found": "0",
+  "status": "cumple"
+ },
+ {
+  "cat": "Estructura HTML",
+  "crit": "Orden en body",
+  "exp": "header > main > footer",
+  "found": "header > main > footer",
+  "status": "cumple"
+ },
+ {
+  "cat": "Estructura HTML",
+  "crit": "Hijos de header (orden del árbol)",
+  "exp": "a, nav#menu-principal, button#btn-menu",
+  "found": "a, nav#menu-principal, button#btn-menu",
+  "status": "cumple"
+ },
+ {
+  "cat": "Móvil (390 px)",
+  "crit": "H1 baja a 32 px",
+  "exp": "32px",
+  "found": "32px",
+  "status": "cumple"
+ },
+ {
+  "cat": "Móvil (390 px)",
+  "crit": "H2 baja a 26 px",
+  "exp": "26px",
+  "found": "26px",
+  "status": "cumple"
+ },
+ {
+  "cat": "Móvil (390 px)",
+  "crit": "H3 baja a 20 px",
+  "exp": "20px",
+  "found": "20px",
+  "status": "cumple"
+ },
+ {
+  "cat": "Móvil (390 px)",
+  "crit": "Botón de menú visible",
+  "exp": "block",
+  "found": "block",
+  "status": "cumple"
+ },
+ {
+  "cat": "Móvil (390 px)",
+  "crit": "Menú colapsado por defecto",
+  "exp": "none",
+  "found": "none",
+  "status": "cumple"
+ },
+ {
+  "cat": "Móvil (390 px)",
+  "crit": "Sin desplazamiento horizontal",
+  "exp": "sí",
+  "found": "sí",
+  "status": "cumple"
+ },
+ {
+  "cat": "Móvil (390 px)",
+  "crit": "Al pulsar el botón: aria-expanded=true y menú visible",
+  "exp": "true / block",
+  "found": "true / block",
+  "status": "cumple"
+ },
+ {
+  "cat": "Prototipo",
+  "crit": "Tarjetas de funciones en una fila (escritorio 1440 px)",
+  "exp": "4 tarjetas en una fila (wireframe 1a)",
+  "found": "4 tarjetas, en una fila",
+  "status": "cumple"
+ },
+ {
+  "cat": "Prototipo",
+  "crit": "Hero: texto a la izquierda, mascota a la derecha (escritorio 1440 px)",
+  "exp": "dos columnas (wireframe 1a)",
+  "found": "dos columnas",
+  "status": "cumple"
+ },
+ {
+  "cat": "Prototipo",
+  "crit": "Botones del hero lado a lado (escritorio 1440 px)",
+  "exp": "[Comenzar] [Ver cómo funciona] en una fila (wireframe 1a)",
+  "found": "en una fila",
+  "status": "cumple"
+ },
+ {
+  "cat": "Prototipo",
+  "crit": "Cuatro pasos en una fila (escritorio 1440 px)",
+  "exp": "(1) Subir ─ (2) Detectar ─ (3) Desplegar ─ (4) Acceder",
+  "found": "4 pasos, en una fila",
+  "status": "cumple"
+ },
+ {
+  "cat": "Prototipo",
+  "crit": "Banda de cierre: título y botón en una fila (escritorio 1440 px)",
+  "exp": "título + [Comenzar] sobre fondo oscuro (wireframe 1a)",
+  "found": "en una fila",
+  "status": "cumple"
+ },
+ {
+  "cat": "Prototipo",
+  "crit": "Encabezado: logo a la izquierda, menú a la derecha (escritorio 1440 px)",
+  "exp": "[Logo] ... menú + [Iniciar sesión] (wireframe 1a)",
+  "found": "correcto",
+  "status": "cumple"
+ },
+ {
+  "cat": "Prototipo",
+  "crit": "Pie: logo a la izquierda, enlaces a su derecha (escritorio 1440 px)",
+  "exp": "[Logo] enlaces · © (wireframe 1a)",
+  "found": "correcto",
+  "status": "cumple"
+ },
+ {
+  "cat": "Prototipo",
+  "crit": "Tarjetas de funciones apiladas (móvil 390 px)",
+  "exp": "4 tarjetas una bajo otra (wireframe 1j)",
+  "found": "4 tarjetas, apiladas",
+  "status": "cumple"
+ },
+ {
+  "cat": "Prototipo",
+  "crit": "Hero: ilustración (móvil 390 px)",
+  "exp": "debajo del texto (wireframe 1j)",
+  "found": "debajo",
+  "status": "cumple"
+ },
+ {
+  "cat": "Prototipo",
+  "crit": "Botones del hero a todo el ancho (móvil 390 px)",
+  "exp": "[Comenzar] y [Ver cómo funciona] a lo ancho (wireframe 1j)",
+  "found": "anchos 358 y 358 px",
+  "status": "cumple"
+ }
+]
